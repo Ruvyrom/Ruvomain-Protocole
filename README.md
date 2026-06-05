@@ -2,7 +2,6 @@
 High-performance, non-root debloat architecture for Samsung S24+ (Exynos 2400). Maximize battery, minimize thermals, maintain system integrity.
 
 ---
-# Ruvomain Protocol
 **The Industrialized Approach to Android Performance & Privacy.**
 
 Ruvomain Protocol is a modular, audited, and reproducible architecture designed to maximize hardware efficiency for the Samsung Galaxy S24+ (Exynos2400) without root access. By eliminating non-essential telemetry and background bloatware, we achievetrue "Deep Sleep" states, elite thermal management, and 11h+ SOT. 
