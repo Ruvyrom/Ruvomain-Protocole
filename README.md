@@ -70,7 +70,7 @@ This protocol is a living project.
 
 ---
 ### 📸 Proof of Concept
-<img src="assets/thermalg-cputemp.jpg" width="400"> <img src="assets/thermalg-cpu.jpg" width="400"> <img src="assets/thermalg-temp.jpg" width="400"> <img src="assets/antutu-score.jpg" width="400"> <img src="assets/antutu-ranking.jpg" width="400">
+<img src="assets/accu-93.jpg" width="400"> <img src="assets/thermalg-cputemp.jpg" width="400"> <img src="assets/thermalg-cpu.jpg" width="400"> <img src="assets/thermalg-temp.jpg" width="400"> <img src="assets/antutu-score.jpg" width="400"> <img src="assets/antutu-ranking.jpg" width="400"> 
 
 ## ⚠️ Disclaimer
 *I am not responsible for any issues resulting from system modifications. Always perform a data backup before deployment.*
