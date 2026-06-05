@@ -69,4 +69,4 @@ This protocol is a living project.
 ## ⚠️ Disclaimer
 *I am not responsible for any issues resulting from system modifications. Always perform a data backup before deployment.*
 
-**Stay clean, stayfast, stay Ruvomain.** 🚀---
+**Stay clean, stayfast, stay Ruvomain.** 🚀
