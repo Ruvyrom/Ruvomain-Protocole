@@ -82,4 +82,6 @@ This protocol is a living project.
 *I am not responsible for any issues resulting from system modifications. Always perform a data backup before deployment.*
 
 ---
+*My other project on github for [Google Pixel6, LineageOS Vanilla 23.2](https://github.com/Ruvyrom/Ruvyrom/tree/main)*
+
 ***Stay clean, stay fast, stay Ruvomain.*** 🚀
