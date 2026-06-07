@@ -81,7 +81,7 @@ This protocol is a living project.
 
 ---
 ### 📸 Proof of Concept
-<img src="assets/accu-93.jpg" width="400"><img src="assets/battery-oneui.jpg" width="400"><img src="assets/thermalg-cputemp.jpg" width="400"> <img src="assets/thermalg-cpu.jpg" width="400"> <img src="assets/thermalg-temp.jpg" width="400">
+<img src="assets/accu-93.jpg" width="400"><img src="assets/battery-s.jpg" width="400"><img src="assets/thermalg.jpg" width="400"> <img src="assets/thermalg-cpu.jpg" width="400"> <img src="assets/thermalg-temp.jpg" width="400">
 
 ## 🧪 Interface:
 This is the visual and functional result of the Ruvomain Protocol applied to a Samsung S24+ (Exynos 2400). This is not a Custom ROM; it is the Samsung OS,deconstructed and liberated from its servitude.
