@@ -105,6 +105,7 @@ This is the visual and functional result of the Ruvomain Protocol applied to a S
 - **Control:** Total network isolation via local firewall (real-time visualization of blocked connection attempts).
 
 - **Result:** Zero latency, optimized battery life, and a clean, pure interface (Lawnchair). When hardware is no longer enslaved to manufacturer servers, it once again becomes a personal tool. Fluidity isn’t a "software update". It’s the result of removing useless background processes.
+
 <img src="assets/launcher.jpg" width="400"><img src="assets/launcher2.jpg" width="400"><img src="assets/quick-settings.jpg" width="400"><img src="assets/quick-settings2.jpg" width="400">
 
 ## ✅ Current Status:
