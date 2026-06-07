@@ -73,7 +73,7 @@ Navigation issues
 `com.google.android.cellbroadcastreceiver`,
 `com.google.android.cellbroadcastservice`
 
-*   **Auditing:** Every package included in our tiers is verified for stability. Users are encouraged to inspect the lists in `/docs/[package-list.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md)`.
+*   **Auditing:** Every package included in our tiers is verified for stability. Users are encouraged to inspect the lists in /docs/[package-list.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md).
 
 ---
 
