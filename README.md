@@ -59,7 +59,8 @@ The protocol is modular, allowing users to choose their level of optimization:
 
 ## 🛡️ Safety & Auditing
 Transparency is a core pillar.
-*   **Critical Safeguards:** Do **not** disable packages like `com.sec.location.nsflp2` (GPS) or `com.samsung.android.smartmirroring` (Smart View).
+*   **Critical Safeguards:** Do **not** disable packages like `com.sec.location.nsflp2` (GPS) or `com.samsung.android.smartmirroring`(Smart View).
+*   **System Integrity:** Avoid removing com.samsung.android.lool (Device Care). Disabling it may cause audio stuttering and erratic behavior during app transitions, as ithandles key background resource management.
 *   **Auditing:** Every package included in our tiers is verified for stability. Users are encouraged to inspect the lists in `/docs/package-list.md`.
 
 ---
