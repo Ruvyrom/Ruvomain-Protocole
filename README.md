@@ -9,8 +9,9 @@
 
 ![](assets/ruvomain.jpg)
 
-I started this project out of pure necessity. My S24+(Exynos) was constantly running hot and draining battery in standby, despite having 'optimized' settings enabled. I realized that standarduser-facing settings are just a facade—the real battery consumption happens behind the scenes, buried in system telemetry and backgroundservices.After 15+ years of tinkering with custom ROMs, I decided to pivot my approach. Insteadof flashing a custom OS, I wanted to see how far I could push the stock firmware to its absolute limits of efficiencywithout breaking Knox or banking apps. This repository is my personal log, my testing ground, and the documentation of my journeyto reclaiming my hardware sovereignty.
-This hasn't been a linear process. You’ll find notes here on things that went wrong—apps I broke, services that causedbootloops, and configurations that actually increased CPU load instead of reducing it.
+I started this project out of pure necessity. My S24+(Exynos) was constantly running hot and draining battery in standby, despite having 'optimized' settings enabled. I realized that standard user-facing settings are just a facade, the real battery consumption happens behind the scenes, buried in system telemetry and background services.
+After 15+ years of tinkering with custom ROMs, I decided to pivot my approach. Instead of flashing a custom OS, I wanted to see how far I could push the stock firmware to its absolute limits of efficiency without breaking Knox or banking apps. This repository is my personal log, my testing ground, and the documentation of my journey to reclaiming my hardware sovereignty.
+This hasn't been a linear process. You’ll find notes here on things that went wrong—apps I broke, services that caused bootloops, and configurations that actually increased CPU load instead of reducing it.
 
 # Ruvomain Protocol
 **The Industrialized Approach to Android Performance & Privacy.**
