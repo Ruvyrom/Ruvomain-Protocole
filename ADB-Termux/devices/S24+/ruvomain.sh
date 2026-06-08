@@ -74,11 +74,11 @@ exit 1
 fi
 
 # --- Confirmation ---
-echo"--- Warning ---"
+echo "--- Warning ---"
 echo "You are about to apply $TIER."
 read -p "Are you sure you want to proceed? (y/N): " confirm
 
-if[[ $confirm != "y" && $confirm != "Y" ]]; then
+if [[ $confirm != "y" && $confirm != "Y" ]]; then
 echo "Operation cancelled."
 exit 0
 fi
