@@ -82,6 +82,8 @@ Debian/Ubuntu/Mint/Kali, Arch Linux, Fedora/CentOS/RHEL
 - Navigate: `cd ruvyrom/ruvomain-adb`
 - Execute:
 `chmod +x ruvomain.sh && ./ruvomain.sh`
+
+*Note: If you are on Termux, ensure youhave run `termux-setup-storage` and allowed storage permissions first.*
 ---
 
 ## 🛡️ Safety & Auditing
