@@ -83,9 +83,9 @@ Debian/Ubuntu/Mint/Kali, Arch Linux, Fedora/CentOS/RHEL
 - Execute:
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
-*Note: If you are on Termux, ensure youhave run `termux-setup-storage` and allowed storage permissions first.*
----
+*Note: If you are on Termux, ensure you have run `termux-setup-storage` and allowed storage permissions first*
 
+---
 ## 🛡️ Safety & Auditing
 Transparency is a core pillar.
 *   **Critical Safeguards:** Do **not** disable packages like `com.sec.location.nsflp2` (GPS) or `com.samsung.android.smartmirroring`(Smart View).
