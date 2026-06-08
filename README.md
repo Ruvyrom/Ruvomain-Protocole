@@ -71,9 +71,7 @@ For users seeking direct control and automation.
 - Transparent, modular, and easy to audit.
 
 - Compatible with Linux distro:
-Debian/Ubuntu/Mint/Kali
-Arch Linux
-Fedora/CentOS/RHEL
+Debian/Ubuntu/Mint/Kali, Arch Linux, Fedora/CentOS/RHEL
 
 1. **Prerequisites:**
 - [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC).
