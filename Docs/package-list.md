@@ -1,86 +1,86 @@
-This list is optimized for S24+ (Exynos). Use Tier 3 with caution if you relyon Knox/Samsung Pay or core system integrity features.
+**This list is optimized for S24+ (Exynos). Use Tier 3 with caution if you relyon Knox/Samsung Pay or core system integrity features.**
 
 ### 🟢 TIER 1: Redundancy & Telemetry (Safe)
 Useless software layers or redundant telemetry services. No impact on core One UI functionality.
  
 **• Bixby & Assistants:**
-com.samsung.android.bixby.agent:
+`com.samsung.android.bixby.agent`:
 Bixby voice assistant
-com.samsung.android.bixbyvision.framework:
+`com.samsung.android.bixbyvision.framework`:
 Bixby image recognition engine.
-com.samsung.android.visionintelligence:
+`com.samsung.android.visionintelligence`:
 Dedicated vision AI
  
 **• Personalization & UI Services:**
-com.samsung.android.app.taskedge:
+`com.samsung.android.app.taskedge`:
 Edge panel functionality
-com.samsung.android.aircommandmanager:
+`com.samsung.android.aircommandmanager`:
 S-Pen feature management
-com.samsung.android.bluelightfilter:
+`com.samsung.android.bluelightfilter`:
 Native blue light filter
-com.sec.android.easyonehand:
+`com.sec.android.easyonehand`:
 One-handedoperation mode
-com.samsung.android.app.earphonetypec:
+`com.samsung.android.app.earphonetypec`:
 USB-C audio accessorymanagement
-•com.samsung.android.inputshare:
+`com.samsung.android.inputshare`:
 Multi-device keyboard/mouse sharing
  
 **• Telemetry & Diagnostics:**
-com.samsung.android.dqagent:
+`com.samsung.android.dqagent`:
 Samsung Quality Agent
-com.android.devicediagnostics:
+`com.android.devicediagnostics`:
 Google hardware diagnostics tool
-com.samsung.android.rampart:
+`com.samsung.android.rampart`:
 Security/system telemetry service
-com.samsung.android.bbc.bbcagent:
+`com.samsung.android.bbc.bbcagent`:
 Samsung "Big Data" collection service.
-com.samsung.android.dsms:
+`com.samsung.android.dsms`:
 System log reporting service
-com.sec.android.app.factorykeystring:
+`com.sec.android.app.factorykeystring`:
 Factory test keys/logs
  
 **• Device Services:**
-com.samsung.android.beaconmanager:
+`com.samsung.android.beaconmanager`:
 Proximity beacon manager
-mcom.samsung.android.mcfds:
+`mcom.samsung.android.mcfds`:
 Multi-device connectivity framework.
-com.samsung.android.mdx.kit:
+`com.samsung.android.mdx.kit`:
 Multi-device development kit
-com.samsung.cmh: Samsung Connection Manager
-com.samsung.android.mcf.autohotspot: Auto-hotspot functionality
+`com.samsung.cmh`: Samsung Connection Manager
+`com.samsung.android.mcf.autohotspot`: Auto-hotspot functionality
  
 **• Multimedia & AR:**
-com.sec.android.mimage.avatarstickers/aremojieditor:
+`com.sec.android.mimage.avatarstickers/aremojieditor`:
 AR Emojicreation and management.
-com.android.avatarpicker:
+`com.android.avatarpicker`:
 System avatar selector.
-com.samsung.android.app.camera.sticker.facearavatar.preload:
+`com.samsung.android.app.camera.sticker.facearavatar.preload`:
 Camera AR stickers.
-com.samsung.android.faceservice:
+`com.samsung.android.faceservice`:
 Facial recognition service.
-com.sec.android.mimage.photoretouching:
+`com.sec.android.mimage.photoretouching`:
 Native photo retouching tool.
-com.samsung.app.newtrim:
+`com.samsung.app.newtrim`:
 Video trimming editor.
-com.samsung.android.vtcamerasettings:
+`com.samsung.android.vtcamerasettings`:
 Advanced video camera settings.
-com.android.dreams.basic/phototable:
+`com.android.dreams.basic/phototable`:
 Interactive screensavers.
  
 **• Miscellaneous:**
-com.android.egg:
+`com.android.egg`:
 Android Easter egg.
-com.samsung.android.brightnessbackupservice:
+`com.samsung.android.brightnessbackupservice`:
 Auto-brightness preference backup.
-com.samsung.safetyinformation:
+`com.samsung.safetyinformation`:
 Legal safety manual.
-com.sec.android.provider.badge:
+`com.sec.android.provider.badge`:
 Notification badgecounts.
-com.samsung.android.forest:
+`com.samsung.android.forest`:
 Samsung Digital Wellbeing.
-com.sec.android.app.parser:
+`com.sec.android.app.parser`:
 System configuration parser.
-com.samsung.android.aware.service:
+`com.samsung.android.aware.service`:
 Presence and context sensors.
  
 ---
@@ -90,76 +90,76 @@ Ecosystem-related services. Disable only if you do not use these features.
 **Include tier 1 and:**
  
 **• Samsung Ecosystem:**
-com.samsung.android.mydevice:
+`com.samsung.android.mydevice`:
 "My Device" / support app.
-com.samsung.android.mdecservice:
+`com.samsung.android.mdecservice`:
 Calls/SMS on other Samsung devices.
-com.sec.android.easyMover.Agent/smartswitchassistant:
+`com.sec.android.easyMover.Agent/smartswitchassistant`:
 Smart Switch data transfer.
-com.samsung.android.callbgprovider:
+`com.samsung.android.callbgprovider`:
 Personalized call backgrounds.
  
 **• Google/Cloud Services:**
-com.google.ar.core:
+`com.google.ar.core`:
 Augmented Reality service.
-com.google.android.aicore/aicore.services:
+`com.google.android.aicore/aicore.services`:
 Local Google AI engine.
-com.google.android.federatedcompute:
+`com.google.android.federatedcompute`:
 Distributed computing (AI telemetry).
-com.google.android.apps.restore: Google backup restoration.
-com.google.android.as:
+`com.google.android.apps.restore`: Google backup restoration.
+`com.google.android.as`:
 Android System Intelligence.
-com.google.android.ondevicepersonalization.services:
+`com.google.android.ondevicepersonalization.services`:
 On-device AI personalization.
-com.google.android.appsearch.apk:
+`com.google.android.appsearch.apk`:
 Google search engine.
-com.google.android.health.connect.backuprestore:
+`com.google.android.health.connect.backuprestore`:
 Connected health data.
-com.google.android.adservices.api:
-Google advertisingservices.
+`com.google.android.adservices.api`:
+Google advertising services.
  
 **• Connectivity:**
-com.samsung.android.net.wifi.wifiguider:
+`com.samsung.android.net.wifi.wifiguider`:
 Samsung Wi-Fi guide.
-com.samsung.android.audiomirroring:
+`com.samsung.android.audiomirroring`:
 Audio mirroringto other screens.
-com.sec.android.app.bluetoothagent:
+`com.sec.android.app.bluetoothagent`:
 Bluetooth management agent.
-com.android.bluetoothmidiservice:
+`com.android.bluetoothmidiservice`:
 Bluetooth MIDI support.
-com.android.ons:
+`com.android.ons`:
 OpportunisticNetworkService (network switching).
  
 **• Security/Knox:**
-com.samsung.android.knox.attestation
-com.samsung.android.knox.er
-com.samsung.android.knox.mpos:
+`com.samsung.android.knox.attestation`
+`com.samsung.android.knox.er`
+`com.samsung.android.knox.mpos`:
 Knox services (Enterprise/Payment).
-com.samsung.android.authfw:
+`com.samsung.android.authfw`:
 Samsung authentication framework.
  
 **• System & Miscellaneous:**
-com.sec.hearingadjust:
+`com.sec.hearingadjust`:
 Sound adaptation (Adapt Sound)
-com.samsung.android.app.omcagent:
+`com.samsung.android.app.omcagent`:
 Carrier-specific configurations.
-com.android.bookmarkprovider:
+`com.android.bookmarkprovider`:
 Browser bookmark manager.
-com.android.calllogbackup:
+`com.android.calllogbackup`:
 Call history backup.
-com.sec.android.CcInfo:
+`com.sec.android.CcInfo`:
 Closed Caption information.
-com.sec.android.app.chromecustomizations:
+`com.sec.android.app.chromecustomizations`:
 Chrome customizations.
-com.android.providers.partnerbookmarks:
+`com.android.providers.partnerbookmarks`:
 Pre-installed partnerbookmarks.
-com.android.wallpaperbackup:
+`com.android.wallpaperbackup`:
 Wallpaper backup.
-•com.samsung.slsi.telephony.silentlogging:
+`com.samsung.slsi.telephony.silentlogging`:
 Telephony Silent logging
-•com.sec.android.app.qsfastpairoverlay:
+`com.sec.android.app.qsfastpairoverlay`:
 Fast Pair connection overlay.
-com.sec.bcservice:
+`com.sec.bcservice`:
 Network Broadcast service.
  
 ---
@@ -169,30 +169,30 @@ Disable only after installing a viable alternative.
 **Include tier 1 + tier 2 and:**
  
 **• Keyboard:**
-com.samsung.android.honeyboard
-com.touchtype.swiftkey
-(Default keyboards).
+`com.samsung.android.honeyboard`
+`com.touchtype.swiftkey`:
+Default keyboards
  
 **• Interface/Setup:**
-com.sec.android.app.SecSetupWizard:
+`com.sec.android.app.SecSetupWizard`:
 Post-reset Samsung setup wizard
-com.google.android.setupwizard:
+`com.google.android.setupwizard`:
 Post-reset Google setup wizard
-android.autoinstalls.config.samsung:
+`android.autoinstalls.config.samsung`:
 Automatic app installation on first boot.
  
 **• Communication:**
-com.samsung.android.app.contacts
-com.sec.android.widgetapp.easymodecontactswidget
-(Contact management)
+`com.samsung.android.app.contacts`,
+`com.sec.android.widgetapp.easymodecontactswidget`:
+Contact management
  
 **• Camera Core:**
-com.sec.android.app.camera
-(Native camera interface).
+`com.sec.android.app.camera`:
+Native camera interface
  
 **• System Security:**
-com.google.android.verifier,
-com.google.android.verifier.overlay
+`com.google.android.verifier`,
+`com.google.android.verifier.overlay`:
 (Play Protect security verification).
  
 Technical note: This list is a working base. As always, system integrity dependson the balance between removing telemetry and maintaining crucial system services.
