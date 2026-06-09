@@ -85,7 +85,7 @@ Presence and context sensors.
 ### 🟡 TIER 2: Optional Features (Moderate)
 Ecosystem-related services. Disable only if you do not use these features.
 
-**Tier 1 and:**
+**Include tier 1 and:**
  
 **• Samsung Ecosystem:**
 com.samsung.android.mydevice:
@@ -164,7 +164,7 @@ Network Broadcast service.
 ### 🔴⚠️ TIER 3: Replacement Required (Advanced) Fundamental packages.
 Disable only after installing a viable alternative.
 
-**Tier 1 + tier 2 and:**
+**Include tier 1 + tier 2 and:**
  
 **• Keyboard:**
 com.samsung.android.honeyboard
