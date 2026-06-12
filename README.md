@@ -6,8 +6,7 @@
 <img src="https://img.shields.io/badge/Shizuku-Powered-orange"><img src="https://img.shields.io/badge/ADB-TERMUX-brightblue"><img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 </p>
 
-![](assets/ruvomain.jpg)
-<p align="center"><img src="assets/S24+.jpg"> 
+![](assets/ruvomain.jpg)<p align="center"><img src="assets/S24+.jpg"> 
 </p>
 
 I started this project out of pure necessity. My S24+(Exynos) was constantly running hot and draining battery in standby, despite having 'optimized' settings enabled. I realized that standard user-facing settings are just a facade, the real battery consumption happens behind the scenes, buried in system telemetry and background services.
