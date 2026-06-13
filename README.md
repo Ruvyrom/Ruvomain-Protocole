@@ -120,6 +120,9 @@ Avoid heavy "Good Guardian" suites that introducetheir own background overhead. 
 
 ---
 ##👥 Community & Credits
+For support, discussions, and the latest news on the Ruvomain Protocol, join our Telegram channel:
+[Telegram Channel](https://t.me/ruvomain)
+
 This protocol is a living project.
 *   **Validation:** Rigorous cross-verification with [Willie_169](https://github.com/Willie169).
 *   **Architecture:** Formal acknowledgment of the Canta workflow by [Samolego](https://samolego.github.io/Canta/).
