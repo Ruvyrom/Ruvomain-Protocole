@@ -169,7 +169,6 @@ Disable only after installing a viable alternative.
 **Include tier 1 + tier 2 and:**
  
 **• Keyboard:**
-`com.samsung.android.honeyboard`
 `com.touchtype.swiftkey`:
 Default keyboards
  
