@@ -10,8 +10,11 @@
 </p>
 
 **The Ruvomain Manifesto**
+
 •Why: "Sovereignty over convenience."
+
 •How: "Minimalist, modular, non-intrusive interventions."
+
 •Status: "Stable for [Samsung S24+ Series] / Tested on [Android 16 OneUI 8.5].
 
 I started this project out of pure necessity. My S24+(Exynos) was constantly running hot and draining battery in standby, despite having 'optimized' settings enabled. I realized that standard user-facing settings are just a facade, the real battery consumption happens behind the scenes, buried in system telemetry and background services.
