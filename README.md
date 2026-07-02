@@ -86,7 +86,7 @@ For users seeking direct control and automation.
 
 - Native support for Linux, macOS, and Termux. Works flawlessly on WSL (WindowsSubsystem for Linux). No Windows-specific dependencies required.
 
-### For Linux users:
+### 🐧 For Linux users:
 1. **Prerequisites:**
 - [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC).
 - `jq` (The script will attempt an auto-install if missing).
@@ -97,7 +97,7 @@ For users seeking direct control and automation.
 - Execute:
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
-### For MacOS users:
+### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
 2.Install `jq` and `adb`: `brew install jq android-platform-tools`
 3. Run the script: `./ruvomain.sh`
