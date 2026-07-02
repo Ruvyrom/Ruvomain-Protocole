@@ -61,12 +61,12 @@ For privacy, you can block internet connexion (with firewall) for these apps wit
 
 **For view packages list and descriptions see the /docs/[package-list.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md)**
 
-*See `/presets` for Canta .json configuration files.*
-
 **⚠️ Before use Tier3, you must read [REMPLACEMENT.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/REMPLACEMENT.md)**
 
 ---
 ## ⚙️ Quick Start
+**Disconnect Samsung account before using tier 2 and 3 in script and for more privacy.**
+
 ### 📱 Methode 1: via Shizuku and Canta
 1.  **Environment:** Install [Shizuku](https://shizuku.rikka.app/) and[Canta](https://samolego.github.io/Canta/).
 2.  **Activate:** Enable Developer Options > Wireless Debugging. Pair Shizuku.
