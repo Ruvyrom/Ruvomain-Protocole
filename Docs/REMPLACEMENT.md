@@ -1,4 +1,4 @@
-before use Tier3, I recommand to install alternatives**
+before use Tier3 or not, I recommand to install alternatives**
 
 Here are the best replacements used by most Ruvomain users:
 
