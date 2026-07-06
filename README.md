@@ -31,8 +31,8 @@ This hasn't been a linear process. You’ll find notes here on things that went 
 - [Network & Resource Confinement Layers](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-network--resource-confinement-layers)
 - [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
      > [Methode 1 (Shizuku/Canta)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta)
-     > [Methode 2 (for ADB/Termux scripts)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux) : 
-     > [For Linux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users) 
+     > [Methode 2 (for ADB/Termux scripts)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux),
+     > [For Linux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users),
      > [For MacOS](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-macos-users)
 - [Safety & Auditing](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-safety--auditing)
 - [Monitoring Strategy](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-monitoring-strategy)
