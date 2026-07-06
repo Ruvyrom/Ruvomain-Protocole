@@ -22,6 +22,27 @@ I started this project out of pure necessity. My S24+(Exynos) was constantly run
 After 15+ years of tinkering with custom ROMs, I decided to pivot my approach. Instead of flashing a custom OS, I wanted to see how far I could push the stock firmware to its absolute limits of efficiency without breaking Knox or banking apps. This repository is my personal log, my testing ground, and the documentation of my journey to reclaiming my hardware sovereignty.
 This hasn't been a linear process. You’ll find notes here on things that went wrong—apps I broke, services that caused bootloops, and configurations that actually increased CPU load instead of reducing it.
 
+### Table of Contents
+- [Ruvomain Protocol](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#ruvomain-protocol)
+- [Key results](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-key-results-one-ui-85)
+- [Philosophy](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#--philosophy)
+- [Protocol hierarchy](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-protocol-hierarchy)
+- [Package List](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md)
+- [Network & Resource Confinement Layers](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-network--resource-confinement-layers)
+- [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
+     > [Methode 1 (Shizuku/Canta)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta)
+     > [Methode 2 (ADB/Termux scripts)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux) : 
+          > [For Linux users](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users)
+          > [For MacOS users](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-macos-users)
+- [Safety & Auditing](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-safety--auditing)
+- [Monitoring Strategy](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-monitoring-strategy)
+- [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
+- [Interface](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-interface)
+- [Current Status](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-current-status)
+- [Disclaimer](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-disclaimer)
+- [License](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/LICENSE)
+
+
 # Ruvomain Protocol
 **The Industrialized Approach to Android Performance & Privacy.**
 
