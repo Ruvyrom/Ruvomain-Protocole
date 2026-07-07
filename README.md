@@ -135,6 +135,14 @@ For users seeking direct control and automation.
 - Execute:
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
+### For Termux users:
+
+**- Install dependencies:** `pkg update && pkg install git android-tools jq2`.
+
+**- Grant Storage Access:** `termux-setup-storage` (Accept the permission prompt)
+
+**- Deploy:** Follow the same steps as the Linux deployment above.
+
 ### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
 2.Install `jq` and `adb`: `brew install jq android-platform-tools`
