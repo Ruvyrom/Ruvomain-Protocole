@@ -135,7 +135,7 @@ For users seeking direct control and automation.
 - Execute:
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
-### For Termux users:
+### 📱 For Termux users:
 
 **- Install dependencies:** `pkg update && pkg install git android-tools jq2`.
 
