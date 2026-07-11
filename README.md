@@ -132,7 +132,8 @@ For users seeking direct control and automation.
 
 ### 🐧 For Linux users:
 1. **Prerequisites:**
-- [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC).
+- [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC). Or `sudo apt update && sudo apt install android-sdk-platform-tools` in terminal on Debian for exemple.
+- 
 - `jq` (The script will attempt an auto-install if missing).
 
 2. **Deployment:**
