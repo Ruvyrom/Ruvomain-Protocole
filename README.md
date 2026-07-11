@@ -273,7 +273,7 @@ For support, discussions, and the latest news on the Ruvomain Protocol, join our
 *   **Architecture:** Formal acknowledgment of the Canta workflow by [Samolego](https://samolego.github.io/Canta/).
 *   **Community Testing:** Special thanks to @ric69 for empirical field-testing of Tier 1 stability.
 
-This protocol is a living project. You czn create et adapt this for other devices. 
+This protocol is a living project. You can create and adapt this for other devices. 
 
 ---
 ### 📸 Proof of Concept
