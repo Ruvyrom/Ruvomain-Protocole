@@ -234,7 +234,6 @@ Navigation issues
 
 **4. Framework Stability (The Guardrail)**
 
----
 **Never delete blindly. Verify the health ofthe system_server.**
 
 >**Action:** After applying your configuration (Tier 1/2/3), monitor for spontaneous reboots or UI lag.
@@ -244,7 +243,6 @@ Navigation issues
 >**Remember:** Never use brute-force deletion.
 Apply the "Confinement Strategy"(revoke permissions + restrict execution) rather than deletion.
 
----
 **🛡️ Protocol Reminder**
 
 **Your audit success is measured by these indicators:**
@@ -269,10 +267,11 @@ For support, discussions, and the latest news on the Ruvomain Protocol, join our
 [Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 [Telegram Channel](https://t.me/ruvomain)
 
-This protocol is a living project.
 *   **Validation:** Rigorous cross-verification with [Willie_169](https://github.com/Willie169).
 *   **Architecture:** Formal acknowledgment of the Canta workflow by [Samolego](https://samolego.github.io/Canta/).
 *   **Community Testing:** Special thanks to @ric69 for empirical field-testing of Tier 1 stability.
+
+This protocol is a living project. You czn create et adapt this for other devices. 
 
 ---
 ### 📸 Proof of Concept
