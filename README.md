@@ -205,7 +205,6 @@ Navigation issues
 
 **2. Wakelock Audit (Hunting the Intruders)**
 
----
 **The primary enemy of battery efficiency is not activeusage; it is the CPU's inability to enter "Deep Sleep."**
 
 >**Tool:** [AppOps](https://appops.rikka.app/) (via [Shizuku](https://shizuku.rikka.app/)).
