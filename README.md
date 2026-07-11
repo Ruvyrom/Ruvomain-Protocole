@@ -302,7 +302,7 @@ I’ve completely reimagined the One UI experience. The goal was to reachan AOSP
 **Why:** By switching to the Fossify ecosystem, I've eliminated telemetry at the app level. No tracking, no background fluff, just pure functionality. The interface is now unified, silent, and incredibly responsive. Knox remains 100% intact.
 
 **Philosophy:** This isn't just a theme; it's a workflow. By removing the intrusive Samsung services and remapping the UI, I've managed to reduce background activity to near-zero levels. The interface is now"silent," allowing for pure focus.
-<img src="assets/launcher.jpg" width="400"><img src="assets/launcher2.jpg" width="400"><img src="assets/quick-settings.jpg" width="400"><img src="assets/quick-settings3.jpg" width="400"><img src="assets/quick-settings4.jpg" width="400">
+<img src="assets/launcher.jpg" width="400"><img src="assets/launcher2.jpg" width="400"><img src="assets/quick-settings.jpg" width="400"><img src="assets/quicksettings3.jpg" width="400"><img src="assets/quicksettings4.jpg" width="400">
 
 ---
 ## ✅ Current Status:
