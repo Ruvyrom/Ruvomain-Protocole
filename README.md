@@ -22,6 +22,10 @@ I started this project out of pure necessity. My S24+(Exynos) was constantly run
 After 15+ years of tinkering with custom ROMs, I decided to pivot my approach. Instead of flashing a custom OS, I wanted to see how far I could push the stock firmware to its absolute limits of efficiency without breaking Knox or banking apps. This repository is my personal log, my testing ground, and the documentation of my journey to reclaiming my hardware sovereignty.
 This hasn't been a linear process. You’ll find notes here on things that went wrong—apps I broke, services that caused bootloops, and configurations that actually increased CPU load instead of reducing it.
 
+Links:
+[Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
+[Telegram](t.me/ruvomain)
+
 ### Table of Contents
 - [Ruvomain Protocol](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#ruvomain-protocol)
 - [Key results](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-key-results-one-ui-85)
@@ -194,6 +198,7 @@ Avoid heavy "Good Guardian" suites that introducetheir own background overhead. 
 ---
 ##👥 Community & Credits
 For support, discussions, and the latest news on the Ruvomain Protocol, join our Telegram channel:
+[Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 [Telegram Channel](https://t.me/ruvomain)
 
 This protocol is a living project.
