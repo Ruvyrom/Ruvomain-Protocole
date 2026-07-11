@@ -75,7 +75,7 @@ We don't "trick" the system; we curate it. By surgically removing non-essential 
 
 ---
 ## 📦 Protocol Hierarchy
-The protocol is modular, allowing users to choose their level of optimization:
+The protocol is modular, allowing users to choose their level of optimization. *Tierslists are provided as standardized defaults, but the architecture is designed for you to edit `tier*.json` files to fit your specific operational requirements.*
 
 | Tier | Strategy| Recommended For |
 |:---|:---|:---|
@@ -89,8 +89,6 @@ For privacy, you can block internet connexion (with firewall) for these apps wit
 **For view packages list and descriptions see the /docs/[package-list.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md)**
 
 **⚠️ Before use Tier3, you must read /docs/[REMPLACEMENT.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/REMPLACEMENT.md)**
-
-Tierslists are provided as standardized defaults, but the architecture is designed for you to edit `tier*.json` files to fit your specific operational requirements.
 
 ---
 ### 🛡️ Network & Resource Confinement Layers
