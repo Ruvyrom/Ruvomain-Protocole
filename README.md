@@ -45,6 +45,7 @@ Links:
 - [Interface](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-interface)
 - [Current Status](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-current-status)
 - [Disclaimer](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-disclaimer)
+- [Community & Credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
 - [License](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/LICENSE)
 
 
