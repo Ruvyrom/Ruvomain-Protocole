@@ -155,8 +155,6 @@ For users seeking direct control and automation.
 2.Install `jq` and `adb`: `brew install jq android-platform-tools`
 3. Run the script: `./ruvomain.sh`
 
-*Note: If you are on Termux, ensure you have run `termux-setup-storage` and allowed storage permissions first*
-
 ---
 ## 🛡️ Safety & Auditing
 Transparency is a core pillar.
