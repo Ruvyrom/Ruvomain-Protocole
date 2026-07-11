@@ -161,9 +161,6 @@ For users seeking direct control and automation.
 ## 🛡️ Safety & Auditing
 Transparency is a core pillar.
 
-**IME & Keyboard Policy Note regarding Samsung Keyboard (`com.samsung.android.honeyboard`):**
-To ensure system stability, the Samsung Keyboard should not be uninstalled. It is deeply integrated into the One UI Framework Resources; removing it triggers a system_server stability loop and automatic reinstallation of the package.
-
 **Recommended approach:**
 Instead of uninstalling, we use a "Containment Strategy":
 
