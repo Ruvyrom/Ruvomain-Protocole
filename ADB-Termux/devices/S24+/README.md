@@ -18,9 +18,9 @@ Prerequisites:
 
 Deployment:
 
-1.Clone the repo: git clone https://github.com/Ruvyrom/ruvyrom.git
+1.`git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
-2.Navigate: cd ruvyrom/ruvomain-adb
+2.Navigate: `cd ruvyrom/ruvomain-adb`
 
 3.Execute: chmod +x ruvomain.sh && ./ruvomain.sh
 
