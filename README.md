@@ -38,7 +38,7 @@ Links:
 
    > [Methode 2 : ADB/Termux scripts](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux): 
 - **Ruvomain Automated (CLI)**
-     > [For Linux and Termux]([https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-for-linux-and-termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli))
+     > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli) 
 - **Manual execution:**
      > [(Linux/Termux/macOS)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users),
 - [Safety & Auditing](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-safety--auditing)
