@@ -137,8 +137,8 @@ For users seeking direct control and automation.
 - `jq` (The script will attempt an auto-install if missing).
 
 2. **Deployment:**
-- Clone the repo: `git clone https://github.com/Ruvyrom/ruvyrom.git`
-- Navigate: `cd ruvyrom/ruvomain-adb`
+- Clone the repo: `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
+- Navigate: `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 - Execute:
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
@@ -153,6 +153,7 @@ For users seeking direct control and automation.
 ### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
 2.Install `jq` and `adb`: `brew install jq android-platform-tools`
+4. Go to `./Ruvomain-Protocole/ADB-Termux/S24+`
 3. Run the script: `./ruvomain.sh`
 
 ---
