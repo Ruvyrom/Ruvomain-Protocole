@@ -114,7 +114,7 @@ Enforces the Principle of Least Privilege. Beyond standard permission stripping,
 ### 📱 Methode 1: via Shizuku and Canta
 1.  **Environment:** Install [Shizuku](https://shizuku.rikka.app/) and[Canta](https://samolego.github.io/Canta/).
 2.  **Activate:** Enable Developer Options > Wireless Debugging. Pair Shizuku.
-3.  **Deploy:** Import the preferred `.json` file from the `Configs/[YOUR_MODEL](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs)` folder into Canta.
+3.  **Deploy:** Import the preferred `.json` file from the Configs/[YOUR_MODEL](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs) folder into Canta.
 4.  **Finalize:** Reboot the device.
 
 ### 💻 Methode 2: via ADB or Termux
