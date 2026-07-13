@@ -20,8 +20,8 @@ Deployment:
 
 1.`git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
-2.Navigate: `cd ruvyrom/ruvomain-adb`
-
-3.Execute: chmod +x ruvomain.sh && ./ruvomain.sh
+- Navigate: `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
+- Execute:
+`chmod +x ruvomain.sh && ./ruvomain.sh`
 
 *Note: If you are on Termux, ensure youhave run `termux-setup-storage` and allowed storage permissions first.*
