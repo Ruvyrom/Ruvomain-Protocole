@@ -1,4 +1,4 @@
-### For Linux users:
+
 - Automatically detects if it's running via ADB (PC) or directly on the device (Termux).
 
 - Automatically installs jq if missing.
@@ -9,6 +9,7 @@
 
 - Compatible with Linux distro: Debian/Ubuntu/Mint/Kali, Arch Linux, Fedora/CentOS/RHEL
 
+### For Linux users:
 Prerequisites:
 
 - Platform-Tools installed (for PC).
