@@ -24,7 +24,6 @@ This hasn't been a linear process. You’ll find notes here on things that went 
 
 Links:
 [Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
-[Telegram](t.me/ruvomain)
 
 ### Table of Contents
 - [Ruvomain Protocol](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#ruvomain-protocol)
