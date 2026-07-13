@@ -120,16 +120,32 @@ Enforces the Principle of Least Privilege. Beyond standard permission stripping,
 ### 💻 Methode 2: via ADB or Termux
 For users seeking direct control and automation.
 
-- Automatically detects if it's running via ADB (PC) or directly on the device (Termux).
+### 1. For Linux and Termux
+**Automatic and Quick Execution (in-memory, no trace):**
 
-- Automatically installs `jq` if missing.
+The protocol can be deployed automatically via the following script.
 
-- Choose between Safe, Balanced, and Extreme debloating profiles.
+`bash <(curl -s https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Automated/Devices/S24%2B/ruvomain-automated.sh)`
 
-- Transparent, modular, and easy to audit.
+or
 
-- Native support for Linux, macOS, and Termux. Works flawlessly on WSL (WindowsSubsystem for Linux). No Windows-specific dependencies required.
+`curl -LO https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Automated/Devices/S24%2B/ruvomain-automated.sh && chmod +x ruvomain-automated.sh && ./ruvomain-automated.sh`
 
+**Key Features:**
+
+**•Model Validation:** Automatic device detection (enforces secure deployment).
+
+**•Dependency Management:** Automated setup of required tools (adb, jq).
+
+**•Surgical Minimalism:** Utilizes mktemp for isolated execution. No system residue left behind.
+
+**•Tiered Debloating:** Choice of strictness levels (Tier 1, 2, or 3) based on user requirements.
+
+**•Auditability:** Comprehensive execution logging (ruvomain_history.log) for full transparency.
+
+Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
+
+### 2.Other scripts (Downloadable et Local file, stable)**
 ### 🐧 For Linux users:
 1. **Prerequisites:**
 - [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC). Or `sudo apt update && sudo apt install android-sdk-platform-tools` in terminal on Debian for exemple.
@@ -155,6 +171,17 @@ For users seeking direct control and automation.
 2.Install `jq` and `adb`: `brew install jq android-platform-tools`
 3. Go to `./Ruvomain-Protocole/ADB-Termux/S24+`
 4. Run the script: `./ruvomain.sh`
+
+**Key Features:**
+- Automatically detects if it's running via ADB (PC) or directly on the device (Termux).
+
+- Automatically installs `jq` if missing.
+
+- Choose between Safe, Balanced, and Extreme debloating profiles.
+
+- Transparent, modular, and easy to audit.
+
+- Native support for Linux, macOS, and Termux. Works flawlessly on WSL (WindowsSubsystem for Linux). No Windows-specific dependencies required.
 
 ---
 ## 🛡️ Safety & Auditing
