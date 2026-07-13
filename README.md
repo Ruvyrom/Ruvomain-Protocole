@@ -126,7 +126,7 @@ For users seeking direct control and automation.
 **Quick & Automatic Execution
 Execute directly in memory (no permanent installation required):**
 
-**Note:** Ensure `curl` isinstalled (`pkg install curl` in Termux).
+**Note:** Ensure `curl` is installed (`pkg install curl` in Termux).
 
 `bash <(curl -s https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Automated/Devices/S24%2B/ruvomain-automated.sh)`
 
