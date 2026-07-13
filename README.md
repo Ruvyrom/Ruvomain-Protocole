@@ -122,8 +122,9 @@ Enforces the Principle of Least Privilege. Beyond standard permission stripping,
 ### 💻 Methode 2: via ADB or Termux
 For users seeking direct control and automation.
 
-### 1. For Linux and Termux
-**Automatic and Quick Execution (in-memory, no trace):**
+### 1. Ruvomain Automated (CLI)
+**Quick & Automatic Execution
+Execute directly in memory (no permanent installation required):**
 
 The protocol can be deployed automatically via the following script.
 
@@ -147,7 +148,8 @@ or
 
 Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
 
-### 2.Other scripts (Downloadable et Local file, stable)**
+### 2.Manual Execution (Linux/Termux/macOS)
+For local, offline-capable usage:**
 ### 🐧 For Linux users:
 1. **Prerequisites:**
 - [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC). Or `sudo apt update && sudo apt install android-sdk-platform-tools` in terminal on Debian for exemple.
