@@ -1,3 +1,5 @@
+### Manual Execution (Linux/Termux/macOS)
+**For local, offline-capable usage:**
 
 - Automatically detects if it's running via ADB (PC) or directly on the device (Termux).
 
