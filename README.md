@@ -34,14 +34,12 @@ Links:
 - [Package List](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md)
 - [Network & Resource Confinement Layers](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-network--resource-confinement-layers)
 - [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
-     > [Methode 1 (Shizuku/Canta)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta)
+     > [Methode 1: Shizuku/Canta (Manual Control)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta)
      > [Methode 2 (for ADB/Termux scripts)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux),
-- **Quick and automatic execution (one command and tiers choice:**
+- **Ruvomain Automated (CLI)**
      > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-for-linux-and-termux)
 - **Manual execution:**
-     > [For Linux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users),
-     > [For Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#-for-termux-users), 
-     > [For MacOS](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-macos-users)
+     > [(Linux/Termux/macOS)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users),
 - [Safety & Auditing](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-safety--auditing)
 - [Monitoring Strategy](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-monitoring-strategy)
 - [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
