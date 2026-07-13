@@ -36,7 +36,7 @@ Links:
 - [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
      > [Methode 1 (Shizuku/Canta)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta)
      > [Methode 2 (for ADB/Termux scripts)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux),
-- **Quick and automatic execution (one commande and tiers choice:**
+- **Quick and automatic execution (one command and tiers choice:**
      > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-for-linux-and-termux)
 - **Manual execution:**
      > [For Linux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users),
