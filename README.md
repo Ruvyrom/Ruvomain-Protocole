@@ -153,8 +153,8 @@ For users seeking direct control and automation.
 ### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
 2.Install `jq` and `adb`: `brew install jq android-platform-tools`
-4. Go to `./Ruvomain-Protocole/ADB-Termux/S24+`
-3. Run the script: `./ruvomain.sh`
+3. Go to `./Ruvomain-Protocole/ADB-Termux/S24+`
+4. Run the script: `./ruvomain.sh`
 
 ---
 ## 🛡️ Safety & Auditing
