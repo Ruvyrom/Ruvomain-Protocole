@@ -126,7 +126,7 @@ For users seeking direct control and automation.
 **Quick & Automatic Execution
 Execute directly in memory (no permanent installation required):**
 
-The protocol can be deployed automatically via the following script.
+**Note:** Ensure `curl` isinstalled (`pkg install curl` in Termux).
 
 `bash <(curl -s https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Automated/Devices/S24%2B/ruvomain-automated.sh)`
 
