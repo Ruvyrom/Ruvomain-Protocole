@@ -18,7 +18,7 @@ Prerequisites:
 
 Deployment:
 
-1.`git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
+- `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
 - Navigate: `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 - Execute:
