@@ -47,9 +47,10 @@ EXEC="adb shell pm uninstall -k --user 0"
 fi
 
 # --- Configuration ---
-FILE_T1="./Configs/ruvomain_tier1_stable.json"
-FILE_T2="./Configs/ruvomain_tier2_stable.json"
-FILE_T3="./Configs/ruvomain_tier3_stable.json"
+CONFIG_DIR="../../Configs/S24+"
+1="$CONFIG_DIR/ruvomain_tier1_stable.json"
+2="$CONFIG_DIR/ruvomain_tier2_stable.json"
+3="$CONFIG_DIR/ruvomain_tier3_stable.json"
 
 echo "========================================"
 echo "   RUVOMAIN PROTOCOL - DEPLOYMENT      "
