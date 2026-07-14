@@ -37,7 +37,8 @@ Links:
 
    > [Methode 2 : ADB/Termux scripts](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux): 
 - **Ruvomain Automated (CLI)**
-     > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli) 
+     > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli)
+     > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#windows-users-wsl2-support)
 - **Manual execution:**
      > [(Linux/Termux/macOS)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users),
 - [Safety & Auditing](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-safety--auditing)
@@ -146,17 +147,17 @@ or
 
 Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
 
-### Windows Users (WSL2 Support)
+### 🖥️ Windows Users (WSL2 Support)
 
 To use the automated script via WSL2, you must bridge your USB connection:
 
-1.Install usbipd-win.
+**1.Install** usbipd-win.
 
-2.In PowerShell (Admin): `usbipd bind --busid <BUSID>` (find your device with usbipd list).
+**2.In PowerShell (Admin):** `usbipd bind --busid <BUSID>` (find your device with usbipd list).
 
-3.Attach: `usbipd attach --wsl --busid <BUSID>`.
+**3.Attach:** `usbipd attach --wsl --busid <BUSID>`.
 
-4.Run the script directly inside your WSL terminal.
+**4.Run the script** directly inside your WSL terminal.
 
 [Instructions for execute script](https://github.com/Ruvyrom/Ruvomain-Protocole#1-ruvomain-automated-cli) 
 
