@@ -26,7 +26,7 @@ echo "Recommended installation based on your distribution:"
 if [ -d "/data/data/com.termux" ]; then
 pkg update && pkg install -y adb
 elif command -v apt &> /dev/null; then
-sudo apt update&& sudo apt install -y android-sdk-platform-tools
+sudo apt update&& sudo apt install -y adb fastboot
 elif command -v pacman &> /dev/null; then
 sudo pacman -S --noconfirm android-tools
 elif command -v dnf &> /dev/null; then
