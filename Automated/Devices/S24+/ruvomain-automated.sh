@@ -32,9 +32,9 @@ fi
 # Installation
 case $PKG_MGR in
 pkg)$PKG_MGR install -y android-tools jq ;;
-apt)    sudo $PKG_MGRupdate && sudo $PKG_MGR install -y adb jq ;;
+apt)    sudo $PKG_MGR update && sudo $PKG_MGR install -y adb jq ;;
 dnf)    sudo $PKG_MGR install -y android-tools jq ;;
-pacman) sudo $PKG_MGR -S--noconfirm android-tools jq ;;
+pacman) sudo $PKG_MGR -S --noconfirm android-tools jq ;;
 esac
 echo "✅ Dependencies ready."
 }
@@ -60,7 +60,7 @@ fetch_resource "ruvomain_tier2_stable.json"
 fetch_resource "ruvomain_tier3_stable.json"
 
 # --- Environment Detection
-if [ -d "/data/data/com.termux" ] || [ -f "/system/bin/pm" ]; then
+if [ -d "/data/data/com.termux" ] || command -v termux-setup-storage &> /dev/null; then
 EXEC="pm uninstall -k --user 0"
 else
 EXEC="adb shell pm uninstall -k --user 0"
