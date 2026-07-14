@@ -16,6 +16,7 @@ y|Y ) echo "Proceeding with caution..." ;;
 esac
 fi
 
+# --- Dependency Check (adb) ---
 check_dependencies() {
 if ! command -v adb &> /dev/null; then
 echo "--------------------------------------------------------"
@@ -26,7 +27,7 @@ echo "Recommended installation based on your distribution:"
 if [ -d "/data/data/com.termux" ]; then
 pkg update && pkg install -y adb
 elif command -v apt &> /dev/null; then
-sudo apt update&& sudo apt install -y adb fastboot
+sudo apt update&& sudo apt install -y adb
 elif command -v pacman &> /dev/null; then
 sudo pacman -S --noconfirm android-tools
 elif command -v dnf &> /dev/null; then
