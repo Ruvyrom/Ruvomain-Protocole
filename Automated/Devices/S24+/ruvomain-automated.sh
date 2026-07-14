@@ -61,7 +61,7 @@ fi
 
 #--- Setup (Temporary directory) ---
 WORK_DIR=$(mktemp -d)
-BASE_URL="https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24%2B" 
+BASE_URL="https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Configs/S24%2B" 
 echo "Initializing protocol in $WORK_DIR..."
 
 # --- Hardware Connection Check ---
