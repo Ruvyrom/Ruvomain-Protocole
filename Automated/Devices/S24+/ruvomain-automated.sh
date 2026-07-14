@@ -145,68 +145,7 @@ exit 1
 fi
 }
 
-# --- Dependency Check (jq) ---
-if ! command -v jq &> /dev/null; then
-echo "Dependency 'jq' not found."
-echo "Attempting to install it automatically (requires sudo)..."
 
-# Debian/Ubuntu/Mint/Kali
-if command -v apt &> /dev/null; then
-sudo apt update && sudo apt install -y jq
-# Arch Linux
-elif command -v pacman &> /dev/null; then
-sudo pacman -S --noconfirm jq
-# Fedora/CentOS/RHEL
-elif command -v dnf &> /dev/null; then
-sudo dnf install -y jq
-else
-echo "Error: Could not automatically install 'jq'. Please install it manually."
-exit 1
-fi
-fi
-
-#--- Setup (Temporary directory) ---
-WORK_DIR=$(mktemp -d)
-BASE_URL="https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Configs/S24%2B" 
-echo "Initializing protocol in $WORK_DIR..."
-
-# --- Hardware Connection Check ---
-if ! adb get-state > /dev/null 2>&1; then
-echo "⚠️ No device detected. Please connect the S24+ and enable USB debugging."
-exit 1
-fi
-
-# --- Download Resources ---
-fetch_resource() {
-curl -s "$BASE_URL/$1" -o "$WORK_DIR/$1"
-}
-
-fetch_resource "ruvomain_tier1_stable.json"
-fetch_resource "ruvomain_tier2_stable.json"
-fetch_resource "ruvomain_tier3_stable.json"
-
-# --- Environment Detection
-if [ -d "/data/data/com.termux" ] || [ -f "/system/bin/pm" ]; then
-EXEC="pm uninstall -k --user 0"
-else
-EXEC="adb shell pm uninstall -k --user 0"
-fi
-
-# --- Configuration ---
-FILE_T1="$WORK_DIR/ruvomain_tier1_stable.json"
-FILE_T2="$WORK_DIR/ruvomain_tier2_stable.json"
-FILE_T3="$WORK_DIR/ruvomain_tier3_stable.json"
-
-echo "========================================"
-echo "   RUVOMAIN PROTOCOL - DEPLOYMENT      "
-echo "========================================"
-echo "1) Apply Tier 1 (Safe)"
-echo "2) Apply Tier 2 (Balanced)"
-echo "3) Apply Tier 3 (Extreme)"
-echo "----------------------------------------"
-read -p "Your choice (1-3): " choice
-
-case $choice in
 1) JSON_FILE=$FILE_T1; TIER="Tier 1 (Safe)" ;;
 2) JSON_FILE=$FILE_T2; TIER="Tier 2 (Balanced)" ;;
 3) JSON_FILE=$FILE_T3; TIER="Tier 3 (Extreme)" ;;
