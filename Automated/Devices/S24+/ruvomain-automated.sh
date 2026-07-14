@@ -16,53 +16,28 @@ y|Y ) echo "Proceeding with caution..." ;;
 esac
 fi
 
-# --- Dependency Check (adb) ---
-check_dependencies() {
-if ! command -v adb &> /dev/null; then
-echo "--------------------------------------------------------"
-echo "Error: 'adb' not detected."
-echo "The Ruvomain Protocol requires Android Platform Tools."
-echo "Recommended installation based on your distribution:"
-# Termux
-if [ -d "/data/data/com.termux" ]; then
-pkg update && pkg install -y adb
-elif command -v apt &> /dev/null; then
-sudo apt update&& sudo apt install -y adb
-elif command -v pacman &> /dev/null; then
-sudo pacman -S --noconfirm android-tools
-elif command -v dnf &> /dev/null; then
-sudo dnf install -y android-tools
+install_deps() {
+echo "🔍 Auditing dependencies..."
+
+# Detecting package manager
+if command -v pkg &> /dev/null; then PKG_MGR="pkg"        # Termux
+elif command -v apt&> /dev/null; then PKG_MGR="apt"      # Debian/Ubuntu/WSL
+elif command -v dnf &> /dev/null; then PKG_MGR="dnf"      # Fedora
+elif command -v pacman &> /dev/null; then PKG_MGR="pacman" # Arch
 else
-echo "  Please install 'adb' via your distribution's package manager."
-fi
-echo "--------------------------------------------------------"
+echo "❌ Error: Package manager not recognized."
 exit 1
 fi
-fi
+
+# Installation
+case $PKG_MGR in
+pkg)$PKG_MGR install -y android-tools jq ;;
+apt)    sudo $PKG_MGRupdate && sudo $PKG_MGR install -y adb jq ;;
+dnf)    sudo $PKG_MGR install -y android-tools jq ;;
+pacman) sudo $PKG_MGR -S--noconfirm android-tools jq ;;
+esac
+echo "✅ Dependencies ready."
 }
-
-# --- Dependency Check (jq) ---
-if ! command -v jq &> /dev/null; then
-echo "Dependency 'jq' not found."
-echo "Attempting to install it automatically (requires sudo)..."
-
-# Termux
-if [ -d "/data/data/com.termux" ]; then
-pkg update && pkg install -y jq
-# Debian/Ubuntu/Mint/Kali
-elif command -v apt &> /dev/null; then
-sudo apt update && sudo apt install -y jq
-# Arch Linux
-elif command -v pacman &> /dev/null; then
-sudo pacman -S --noconfirm jq
-# Fedora/CentOS/RHEL
-elif command -v dnf &> /dev/null; then
-sudo dnf install -y jq
-else
-echo "Error: Could not automatically install 'jq'. Please install it manually."
-exit 1
-fi
-fi
 
 #--- Setup (Temporary directory) ---
 WORK_DIR=$(mktemp -d)
