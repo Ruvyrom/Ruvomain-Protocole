@@ -49,7 +49,7 @@ echo "Attempting to install it automatically (requires sudo)..."
 
 # Termux
 if [ -d "/data/data/com.termux" ]; then
-pkg update && pkg install -y jq2
+pkg update && pkg install -y jq
 # Debian/Ubuntu/Mint/Kali
 elif command -v apt &> /dev/null; then
 sudo apt update && sudo apt install -y jq
