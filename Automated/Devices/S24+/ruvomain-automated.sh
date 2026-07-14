@@ -25,20 +25,18 @@ echo "Recommended installation based on your distribution:"
 # Termux
 if [ -d "/data/data/com.termux" ]; then
 pkg update && pkg install -y adb
-# Debian/Ubuntu
-elif [ -f /etc/debian_version ]; then
-echo "  sudo apt install android-tools-adb"
-# Arch Linux
-elif [ -f /etc/arch-release ]; then
-echo "  sudo pacman -S android-tools"
-# Fedora
-elif [ -f /etc/fedora-release ]; then
-echo "  sudo dnf install android-tools"
+elif command -v apt &> /dev/null; then
+sudo apt update&& sudo apt install -y android-tools-adb
+elif command -v pacman &> /dev/null; then
+sudo pacman -S --noconfirm android-tools
+elif command -v dnf &> /dev/null; then
+sudo dnf install -y android-tools
 else
 echo "  Please install 'adb' via your distribution's package manager."
 fi
 echo "--------------------------------------------------------"
 exit 1
+fi
 fi
 }
 
