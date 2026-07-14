@@ -38,6 +38,7 @@ Links:
    > [Methode 2 : ADB/Termux scripts](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux): 
 - **Ruvomain Automated (CLI)**
      > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli)
+
      > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#windows-users-wsl2-support)
 - **Manual execution:**
      > [(Linux/Termux/macOS)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users),
