@@ -144,6 +144,8 @@ or
 
 **•Tiered Debloating:** Choice of strictness levels (Tier 1, 2, or 3) based on user requirements.
 
+**•Always Up-to-Date:** The script dynamically fetches the latest configuration files from this repository at each run, ensuring you always have the most optimized and secure settings without manual intervention.
+
 **•Auditability:** Comprehensive execution logging (ruvomain_history.log) for full transparency.
 
 Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
