@@ -146,7 +146,7 @@ or
 
 Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
 
-### Windows Users (WSL2 Support)**
+### Windows Users (WSL2 Support)
 
 To use the automated script via WSL2, you must bridge your USB connection:
 
