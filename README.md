@@ -146,6 +146,20 @@ or
 
 Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
 
+### Windows Users (WSL2 Support)**
+
+To use the automated script via WSL2, you must bridge your USB connection:
+
+1.Install usbipd-win.
+
+2.In PowerShell (Admin): `usbipd bind --busid <BUSID>` (find your device with usbipd list).
+
+3.Attach: `usbipd attach --wsl --busid <BUSID>`.
+
+4.Run the script directly inside your WSL terminal.
+
+[Instructions for execute script](https://github.com/Ruvyrom/Ruvomain-Protocole#1-ruvomain-automated-cli) 
+
 ### 2.Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage:**
 ### 🐧 For Linux users:
