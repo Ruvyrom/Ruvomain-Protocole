@@ -39,7 +39,7 @@ Links:
 - **Ruvomain Automated (CLI)**
      > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli)
 
-     > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#windows-users-wsl2-support)
+     > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)
 - **Manual execution:**
      > [(Linux/Termux/macOS)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users),
 - [Safety & Auditing](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-safety--auditing)
