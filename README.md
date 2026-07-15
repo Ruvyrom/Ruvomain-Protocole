@@ -196,7 +196,7 @@ ruvomain_tier*_stable.json in `/ADB-TERMUX/devices/configs/S24+`
 
 **- Grant Storage Access:** `termux-setup-storage` (Accept the permission prompt)
 
-**- Deploy:** Follow the same steps as the Linux deployment above.
+**- Deploy:** Follow the same steps as the [Linux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users) deployment above.
 
 ### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
