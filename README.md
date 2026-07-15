@@ -164,7 +164,7 @@ To use the automated script via WSL2, you must bridge your USB connection:
 
 [Instructions for execute automated script](https://github.com/Ruvyrom/Ruvomain-Protocole#1-ruvomain-automated-cli) 
 
-or script below 👇
+or script below (for Linux commands) 👇
 
 ### 2.Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage:**
