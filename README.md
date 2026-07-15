@@ -214,7 +214,7 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 - Modify any `ruvomain_tier*_stable.json` as you wish.
 
 6. **Execute:**
-`cd ADB-Termux`
+`cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 `./ruvomain.sh`
 
 - Automatically installs `jq` if missing.
