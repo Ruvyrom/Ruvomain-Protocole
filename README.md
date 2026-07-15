@@ -51,7 +51,7 @@ Links:
 - [Community & Credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
 - [License](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/LICENSE)
 
-
+---
 # Ruvomain Protocol
 **The Industrialized Approach to Android Performance & Privacy.**
 
@@ -119,6 +119,7 @@ Enforces the Principle of Least Privilege. Beyond standard permission stripping,
 3.  **Deploy:** Import the preferred `.json` file from the Configs/[YOUR_MODEL](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs) folder into Canta.
 4.  **Finalize:** Reboot the device.
 
+---
 ### 💻 Methode 2: via ADB or Termux
 For users seeking direct control and automation.
 
@@ -166,6 +167,7 @@ To use the automated script via WSL2, you must bridge your USB connection:
 
 or script below (for Linux commands) 👇
 
+---
 ### 2.Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage.
 
@@ -217,6 +219,7 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 `./ruvomain.sh`
 
+---
 - Automatically installs `jq` if missing.
 
 - Choose between Safe, Balanced, and Extreme debloating profiles.
@@ -229,6 +232,7 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 ## 🛡️ Safety & Auditing
 Transparency is a core pillar.
 
+---
 **Recommended approach:**
 Instead of uninstalling, we use a "Containment Strategy":
 
