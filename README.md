@@ -180,7 +180,7 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 2. **Deployment:**
 - Clone the repo: `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
-- Modify ruvomain_tier*_stable.json in /configs/S24+ if you want
+- (Optional) Modify ruvomain_tier*_stable.json in /configs/S24+
 
 - Navigate: `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 
@@ -198,9 +198,9 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 ### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
 
-2.Install `jq` and `adb`: `brew install jq android-platform-tools`
+2.Install tools: `brew install jq android-platform-tools`
 
-3.Modify ruvomain_tier*_stable.json in /configs/S24+ if you want
+3.(Optional) Modify ruvomain_tier*_stable.json in /configs/S24+
 
 4. Go to `./Ruvomain-Protocole/ADB-Termux/S24+`
 
