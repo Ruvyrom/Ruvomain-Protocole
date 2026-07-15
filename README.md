@@ -167,7 +167,10 @@ To use the automated script via WSL2, you must bridge your USB connection:
 or script below (for Linux commands) 👇
 
 ### 2.Manual Execution (Linux/Termux/macOS)
-For local, offline-capable usage:**
+For local, offline-capable usage.
+
+With this script, you can modify .json files in your convenience before applying:
+
 ### 🐧 For Linux users:
 1. **Prerequisites:**
 - [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC). Or `sudo apt update && sudo apt install android-sdk-platform-tools` in terminal on Debian for exemple.
