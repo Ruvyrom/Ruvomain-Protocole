@@ -180,13 +180,14 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 - `jq` (The script will attempt an auto-install if missing).
 
 2. **Deployment:**
-- Clone the repo: `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
+**- Clone the repo:** `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
-- (Optional) Modify ruvomain_tier*_stable.json in /ADB-TERMUX/devices/configs/S24+
+**- (Optional) Modify**
+ruvomain_tier*_stable.json in `/ADB-TERMUX/devices/configs/S24+`
 
-- Navigate: `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
+**- Navigate:** `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 
-- Execute:
+**- Execute:**
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
 ### 📱 For Termux users:
@@ -219,8 +220,9 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 `./ruvomain.sh`
 
----
-- Automatically installs `jq` if missing.
+**Key Features:**
+
+- Automatically installs `jq` if missing. *(not for MacOS)*
 
 - Choose between Safe, Balanced, and Extreme debloating profiles.
 
