@@ -169,7 +169,7 @@ or script below (for Linux commands) 👇
 ### 2.Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage.
 
-With this script, you can modify ruvomain-tier*.json files in your convenience before applying:
+With this script, you can modify [ruvomain_tier*_stable.json](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24%2B) files in your convenience before applying:
 
 ### 🐧 For Linux users:
 1. **Prerequisites:**
