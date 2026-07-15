@@ -198,15 +198,24 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 ### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
 
-2.Install tools: `brew install jq android-platform-tools`
+2. **Install dependencies:**
+`brew install git jq android-platform-tools`
 
-3.(Optional) Modify ruvomain_tier*_stable.json in /configs/S24+
+3.**Clone the protocol:**
+`git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
+`cd Ruvomain-Protocole`
 
-4. Go to `./Ruvomain-Protocole/ADB-Termux/S24+`
+4. **Verify device connection:**
+`adb devices`
+*(If "unauthorized", check your phonescreen and tap "Always allow")*
 
-5. Run the script: `./ruvomain.sh`
-**Key Features:**
-- Automatically detects if it's running via ADB (PC) or directly on the device (Termux).
+5. **Customize (Optional):**
+- Navigate to `/configs/S24+/`
+- Modify any `ruvomain_tier*_stable.json` as you wish.
+
+6. **Execute:**
+`cd ADB-Termux`
+`./ruvomain.sh`
 
 - Automatically installs `jq` if missing.
 
