@@ -182,7 +182,7 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 2. **Deployment:**
 - Clone the repo: `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
-- (Optional) Modify ruvomain_tier*_stable.json in /configs/S24+
+- (Optional) Modify ruvomain_tier*_stable.json in /ADB-TERMUX/devices/configs/S24+
 
 - Navigate: `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 
@@ -212,7 +212,7 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 *(If "unauthorized", check your phonescreen and tap "Always allow")*
 
 5. **Customize (Optional):**
-- Navigate to `/configs/S24+/`
+- Navigate to `/ADB-TERMUX/devices/configs/S24+`
 - Modify any `ruvomain_tier*_stable.json` as you wish.
 
 6. **Execute:**
