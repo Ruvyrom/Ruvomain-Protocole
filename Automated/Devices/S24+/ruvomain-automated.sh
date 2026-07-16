@@ -34,7 +34,7 @@ fi
 # --- Dependencies & Env ---
 install_deps() {
 echo "🔍 Auditing dependencies..."
-if command -v pkg&> /dev/null; then PKG_MGR="pkg"
+if command -v pkg &> /dev/null; then PKG_MGR="pkg"
 elif command -v apt &> /dev/null; then PKG_MGR="apt"
 elif command -v dnf &> /dev/null; then PKG_MGR="dnf"
 elif command -v pacman &> /dev/null; then PKG_MGR="pacman"
@@ -74,7 +74,7 @@ read -r -p"Choice (1-3): " choice
 case $choice in
 1) JSON_FILE="$WORK_DIR/ruvomain_stable_t1.json"; TIER="Tier 1" ;;
 2) JSON_FILE="$WORK_DIR/ruvomain_stable_t2.json"; TIER="Tier 2";;
-3) JSON_FILE="$WORK_DIR/ruvomain_stable_t3.json";TIER="Tier 3" ;;
+3) JSON_FILE="$WORK_DIR/ruvomain_stable_t3.json"; TIER="Tier 3" ;;
 *) echo "Invalid choice."; exit 1 ;;
 esac
 
