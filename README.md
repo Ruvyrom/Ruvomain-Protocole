@@ -98,6 +98,8 @@ Enforces the Principle of Least Privilege. Beyond standard permission stripping,
 ### 💻 Methode 2: via ADB or Termux
 For users seeking direct control and automation.
 
+Note: This project includes a Makefile to facilitate auditability and execution. Run `make audit` to verify the integrity of the scripts.
+
 ### 1. Ruvomain Automated (CLI)
 **Quick & Automatic Execution
 Execute directly in memory (no permanent installation required):**
