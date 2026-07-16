@@ -45,15 +45,6 @@ To gain a deeper understanding of the technical and operational aspects of the p
 - [Replacement](/Docs/Remplacement.md): Documentation regarding software substitution processes and procedures.Users on different hardware or firmware versions should exercise caution and verify package dependencies before execution.
 - [Safety & Auditing](Docs/Safety-&-Auditing.md): Information regarding code transparency, audit processes, and system integrity maintenance.
 
-
----
-## 🚀 Key Results (One UI 8.5)
-*   **SoT:** **11h+** on a single charge.
-*   **Idle Drain:** **~0.2-0.5%/h** (Near-zero).
-*   **Thermals:** Stable **~37°C** under mixed load.
-*   **Knox Integrity:** **100% Safe** (No root, no bootloader unlocking).
-*
-
 ---
 ## ⚙️ Quick Start
 **Disconnect Samsung account before using tier 2 and 3 in script and for more privacy.**
