@@ -6,4 +6,4 @@ To gain a deeper understanding of the technical and operational aspects of the p
 - [Network & Resource Confinement](/Docs/Network-&-Resource-Confinement-Layers.md): Technical details on system hardening and resource management.
 - [Package List](Docs/package-list.md): A detailed list of components targeted by the protocol.
 - [Replacement](/Docs/Remplacement.md): Documentation regarding software substitution processes and procedures.Users on different hardware or firmware versions should exercise caution and verify package dependencies before execution.
-  - [Safety & Auditing](Docs/Safety-&-Auditing.md): Information regarding codetransparency, audit processes, and system integrity maintenance.
+- [Safety & Auditing](Docs/Safety-&-Auditing.md): Information regarding codetransparency, audit processes, and system integrity maintenance.
