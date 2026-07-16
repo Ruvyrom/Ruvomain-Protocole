@@ -9,24 +9,14 @@
 ![](assets/ruvomain.jpg)<p align="center"><img src="assets/S24+.jpg"> 
 </p>
 
-**The Ruvomain Manifesto**
+After 16 years of messing around with Android modding, I finally got tired of re-running the same ADB commands every time Samsung pushes a security patch or I need to re-provisionmy environment.
 
-• **Why:** `Sovereignty over convenience.`
-
-• **How:** `Minimalist, modular, non-intrusive interventions.`
-
-• **Status:** `Stable for [Samsung S24+ Series] / Tested on [Android 16 OneUI 8.5].`
-
-
-I started this project out of pure necessity. My S24+(Exynos) was constantly running hot and draining battery in standby, despite having 'optimized' settings enabled. I realized that standard user-facing settings are just a facade, the real battery consumption happens behind the scenes, buried in system telemetry and background services.
-After 15+ years of tinkering with custom ROMs, I decided to pivot my approach. Instead of flashing a custom OS, I wanted to see how far I could push the stock firmware to its absolute limits of efficiency without breaking Knox or banking apps. This repository is my personal log, my testing ground, and the documentation of my journey to reclaiming my hardware sovereignty.
-This hasn't been a linear process. You’ll find notes here on things that went wrong—apps I broke, services that caused bootloops, and configurations that actually increased CPU load instead of reducing it.
+I’ve started putting my cleanup and confinement tools into a modular protocol (internally, I callit "Ruvomain"). The goal is to keep it portable, versioned, and auditable, specifically to avoid root,as Knox is too sensitive on the S24+ to mess with.
 
 Links:
 [Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
 ### Table of Contents
-- [Ruvomain Protocol](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#ruvomain-protocol)
 - [Key results](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-key-results-one-ui-85)
 - [Philosophy](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#--philosophy)
 - [Protocol hierarchy](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-protocol-hierarchy)
@@ -52,28 +42,11 @@ Links:
 - [License](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/LICENSE)
 
 ---
-# Ruvomain Protocol
-**The Industrialized Approach to Android Performance & Privacy.**
-
-The Ruvomain Protocol is a modular, audited, and reproducible architecture designed to maximize hardware efficiency for the Samsung Galaxy S24+ (Exynos 2400) without root access. By eliminating non-essential telemetry and background bloatware, we achieve true "Deep Sleep" states, elite thermal management, and 11h+ SOT.
-
-### Why this approach?
-*Some ask: "Why a protocol instead of just a simple list?"*
-
-**Ruvomain is built for sustainability, not one-off use.** Unlike static lists that break with every OS update, Ruvomain uses a modular JSON-based architecture. This ensures **safe, consistent, and maintainable optimization** that evolves with your device—so you don't have to rebuild your debloat list from scratch every time Samsung pushes an update.
-
----
 ## 🚀 Key Results (One UI 8.5)
 *   **SoT:** **11h+** on a single charge.
 *   **Idle Drain:** **~0.2-0.5%/h** (Near-zero).
 *   **Thermals:** Stable **~37°C** under mixed load.
 *   **Knox Integrity:** **100% Safe** (No root, no bootloader unlocking).
-
----
-## 💡  Philosophy
-The conventional approach to "debloating" (manually running random ADB commands) is obsolete. It lacks consistency and is impossible to maintain. **The Ruvomain Protocol** shifts this paradigm by treating system optimization as an **industrialized engineering process**.
-
-We don't "trick" the system; we curate it. By surgically removing non-essential services while maintaining framework stability, we ensure the device performs at its peak potential.
 
 ---
 ## 📦 Protocol Hierarchy
