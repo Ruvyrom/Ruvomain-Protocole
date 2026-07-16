@@ -8,7 +8,7 @@ if [[ "$CURRENT_MODEL" != "$REQUIRED_MODEL" ]]; then
 echo "⚠️ WARNING: Detected devicemodel: $CURRENT_MODEL"
 echo "This script is specifically optimized for $REQUIRED_MODEL."
 read -r -p "Do you want to proceed anyway? (y/N) " choice
-if[[ ! "$choice" =~ ^[Yy]$ ]]; then
+if [[ ! "$choice" =~ ^[Yy]$ ]]; then
 echo "Safety abort. Operation cancelled."
 exit1
 fi
