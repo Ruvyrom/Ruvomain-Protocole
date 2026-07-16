@@ -1,4 +1,3 @@
-## 🛡️ Safety & Auditing
 # Safety & Auditing
 
 The RuvomainProtocol is designed with security, transparency, and system integrity as its core pillars. This document outlines our approach to ensuring the safety of your deviceand the reliability of our automation scripts.
