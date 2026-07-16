@@ -11,3 +11,5 @@ Please ensure:
 - The JSON syntax is valid.
 - You have tested the debloat list on your own device.
 - You keep the minimalist philosophy of the project.
+
+# Note for skeptics: This structure is designed to be auditable, not just automated. Everything here is hand-coded to ensure 0-day debloat safety.
