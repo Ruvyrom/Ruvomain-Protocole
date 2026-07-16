@@ -9,7 +9,7 @@ if [ "$CURRENT_MODEL" != "$REQUIRED_MODEL" ]; then
 echo "⚠️ WARNING: Detected device model: $CURRENT_MODEL"
 echo "This script is specifically optimized for the $REQUIRED_MODEL."
 echo "Running it on a different model may cause system instability or bootloops."
-read -p "Do you want to proceed anyway? (y/N) " choice
+read -r -p "Do you want to proceed anyway? (y/N) " choice
 case "$choice" in
 y|Y ) echo "Proceeding with caution..." ;;
 * ) echo "Safety abort. Operation cancelled."; exit 1 ;;
@@ -48,9 +48,9 @@ fi
 
 # --- Configuration ---
 CONFIG_DIR="../../Configs/S24+"
-1="$CONFIG_DIR/ruvomain_tier1_stable.json"
-2="$CONFIG_DIR/ruvomain_tier2_stable.json"
-3="$CONFIG_DIR/ruvomain_tier3_stable.json"
+FILE_T1="$CONFIG_DIR/ruvomain_tier1_stable.json"
+FILE_T2="$CONFIG_DIR/ruvomain_tier2_stable.json"
+FILE_T3="$CONFIG_DIR/ruvomain_tier3_stable.json"
 
 echo "========================================"
 echo "   RUVOMAIN PROTOCOL - DEPLOYMENT      "
@@ -59,7 +59,7 @@ echo "1) Apply Tier 1 (Safe)"
 echo "2) Apply Tier 2 (Balanced)"
 echo "3) Apply Tier 3 (Extreme)"
 echo "----------------------------------------"
-read -p "Your choice (1-3): " choice
+read -r -p "Your choice (1-3): " choice
 
 case $choice in
 1) JSON_FILE=$FILE_T1; TIER="Tier 1 (Safe)" ;;
@@ -77,7 +77,7 @@ fi
 # --- Confirmation ---
 echo "--- Warning ---"
 echo "You are about to apply $TIER."
-read -p "Are you sure you want to proceed? (y/N): " confirm
+read -r -p "Are you sure you want to proceed? (y/N): " confirm
 
 if [[ $confirm != "y" && $confirm != "Y" ]]; then
 echo "Operation cancelled."
@@ -87,10 +87,10 @@ fi
 echo "--- Deploying: $JSON_FILE ---"
 
 # --- Execution ---
-for pkg in $(jq -r '.apps[].packageName' "$JSON_FILE"); do
+while read -r pkg; do
 echo "Processing: $pkg"
 $EXEC "$pkg"
-done
+done <<(jq -r '.apps[].packageName' "$JSON_FILE")
 
 echo "========================================"
 echo "Operation finished."
