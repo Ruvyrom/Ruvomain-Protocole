@@ -148,6 +148,8 @@ or script below (for Linux commands) 👇
 ### 2.Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage.
 
+Note: This project includes a Makefile to facilitate auditability and execution. Run `make audit` to verify the integrity of the scripts.
+
 With this script, you can modify [ruvomain_tier*_stable.json](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24%2B) files in your convenience before applying:
 
 ### 🐧 For Linux users:
