@@ -21,7 +21,7 @@
 **Deployment:**
 
 - Clone the repo: `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
-
+- You can **modify** .json files if you want keep a fonctionality in `/Configs/S24+`
 - Navigate: `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 - Execute:
 `chmod +x ruvomain.sh && ./ruvomain.sh`
