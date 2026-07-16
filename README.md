@@ -44,7 +44,8 @@ To gain a deeper understanding of the technical and operational aspects of the p
 - [Using the Makefile](/Docs/Using-the-Makefile.md): A comprehensive guide to the secure control interface.
 - [Network & Resource Confinement](/Docs/Network-&-Resource-Confinement-Layers.md): Technical details on system hardening and resource management.
 - [Package List](Docs/package-list.md): A detailed list of components targeted by the protocol.
-- [Replacement](/Docs/Remplacement.md): Documentation regarding software substitution processes and procedures.Users on different hardware or firmware versions should exercise caution and verify package dependencies before execution. 
+- [Replacement](/Docs/Remplacement.md): Documentation regarding software substitution processes and procedures.Users on different hardware or firmware versions should exercise caution and verify package dependencies before execution.
+- [Safety & Auditing](Docs/Safety-&-Auditing.md): Information regarding code transparency, audit processes, and system integrity maintenance.
 
 
 ---
@@ -53,42 +54,7 @@ To gain a deeper understanding of the technical and operational aspects of the p
 *   **Idle Drain:** **~0.2-0.5%/h** (Near-zero).
 *   **Thermals:** Stable **~37°C** under mixed load.
 *   **Knox Integrity:** **100% Safe** (No root, no bootloader unlocking).
-
----
-## 📦 Protocol Hierarchy
-The protocol is modular, allowing users to choose their level of optimization. *Tierslists are provided as standardized defaults, but the architecture is designed for you to edit `tier*.json` files to fit your specific operational requirements.*
-
-You can modify .json files if you want keep a fonctionality in /Configs/S24+ [with this method](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#2manual-execution-linuxtermuxmacos)
-
-| Tier | Strategy| Recommended For |
-|:---|:---|:---|
-| **Tier 1 (Stable/Conservative)** | Redundancy & Telemetry | All users seeking immediate gains. |
-| **Tier 2 (Advanced/Balanced)** | AI Telemetry & Cloud Bloat | Users prioritizing privacy & efficiency. |
-| **Tier 3 (Surgical/Extreme)** | Ghost Mode (System Core) | Advanced users building a bare-metal experience. |
-
-The protocol keep `Samsung Camera` and `gallery`, `Dolby Atmos`, `Samsung Screenshot`, `OneUI launcher`.
-For privacy, you can block internet connexion (with firewall) for these apps without problem.
-
-**For view packages list and descriptions see the /docs/[package-list.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md)**
-
-**⚠️ Before use Tier3, you must read /docs/[REMPLACEMENT.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/REMPLACEMENT.md)**
-
----
-### 🛡️ Network & Resource Confinement Layers
-
-The Ruvomain Protocol extends beyond basic package removal.
-To achieve true hardware sovereignty and operational efficiency, we implement a multi-layered confinement strategy to minimize the device's external footprint:
-
-**- NextDNS** (System-wide DNS Filtering):
-Configured directly within Android’s Private DNS settings. This acts as the firstline of defense, neutralizing GAFAM telemetry, ISP-level tracking, and ad-infrastructure requests before they even exit the device.
-
-**- AdGuard Nightly** (Granular Firewall):
-Deployed for strict network enforcement. This layer restricts connectivity forapplications that do not require network access, prevents "phoning home" during standby (screen-off), and effectively isolates telemetry-heavy processes to minimize energy footprint and unauthorized background communication.
-
-**- AppOps** (Privilege & Wakelock Management):
-Enforces the Principle of Least Privilege. Beyond standard permission stripping, this layer targets system-level wakelocks and hardware sensors to ensure processes remain dormant unless explicitly required by the user. This is critical for preventing unauthorized data access (Clipboard, Sensors, Location, Biometrics) and ensuring maximum hardware idle efficiency.
-
-*By layering these tools, the terminal is transformed from a data-leaking device into a hardened, localized system that obeys only the user's intent.*
+*
 
 ---
 ## ⚙️ Quick Start
