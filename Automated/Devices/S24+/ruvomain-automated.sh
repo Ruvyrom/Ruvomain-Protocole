@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Ruvomain Automated Debloater
+# Version 1.0.0
+# Created by Ruvyrom - 16 years of Android modding, 0 patience for bloat.
+# This script is for personal use, use at your own risk.
 set -euo pipefail
 
 show_logo() {
