@@ -1,6 +1,6 @@
 # Safety & Auditing
 
-The RuvomainProtocol is designed with security, transparency, and system integrity as its core pillars. This document outlines our approach to ensuring the safety of your deviceand the reliability of our automation scripts.
+The Ruvomain Protocol is designed with security, transparency, and system integrity as its core pillars. This document outlines our approach to ensuring the safety of your deviceand the reliability of our automation scripts.
 
 ## Static Analysis (Audit)
 To prevent unexpected behaviors and ensure script reliability, all protocol scripts undergo static analysis using **ShellCheck**.
