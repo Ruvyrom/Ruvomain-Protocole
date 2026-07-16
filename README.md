@@ -11,7 +11,7 @@
 
 After 16 years of messing around with Android modding, I finally got tired of re-running the same ADB commands every time Samsung pushes a security patch or I need to re-provisionmy environment.
 
-I’ve started putting my cleanup and confinement tools into a modular protocol (internally, I callit "Ruvomain"). The goal is to keep it portable, versioned, and auditable, specifically to avoid root,as Knox is too sensitive on the S24+ to mess with.
+I’ve started putting my cleanup and confinement tools into this modular protocol. The goal is to keep it portable, versioned, and auditable, specifically to avoid root,as Knox is too sensitive on the S24+ to mess with.
 
 Links:
 [Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
