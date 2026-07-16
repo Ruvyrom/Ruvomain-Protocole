@@ -1,29 +1,23 @@
 ## 🛡️ Safety & Auditing
-Transparency is a core pillar.
+# Safety & Auditing
 
----
-**Recommended approach:**
-Instead of uninstalling, we use a "Containment Strategy":
+The RuvomainProtocol is designed with security, transparency, and system integrity as its core pillars. This document outlines our approach to ensuring the safety of your deviceand the reliability of our automation scripts.
 
-**1.** Set your preferred FOSS keyboard (e.g., HeliBoard) as the default.
+## Static Analysis (Audit)
+To prevent unexpected behaviors and ensure script reliability, all protocol scripts undergo static analysis using **ShellCheck**.
 
-**2.** Use AppOps to revoke all permissions (Contacts, Storage, etc.) and restrict background execution for the Samsung Keyboard.
+- **Why it matters:** ShellCheck identifies potential bugs, quoting issues, and logical errors in shell scripts before execution.
+- **How to run the audit:**
+You can verify the integrity of the scripts at any time by running:
+`make audit`
+This ensures that every line of code complies with POSIX standards and avoids common scripting pitfalls.
 
-**3.** The package remains present to satisfy system dependencies but is effectively neutralized and isolated.
+## System Integrity(Samsung Knox)
+The Ruvomain Protocol is strictly non-destructive. Our approach respects the integrity of your device's security architecture:
 
----
-*   **Critical Safeguards:** Do **not** disable packages like `com.sec.location.nsflp2` (GPS) or `com.samsung.android.smartmirroring`(Smart View).
-*   **System Integrity:** Avoid removing `com.samsung.android.lool` (Device Care). Disabling it may cause audio stuttering and erratic behavior during app transitions, as ithandles key background resource management.
+1. **Non-Rooted Approach:** We operate solely within the user-space boundaries allowed by ADB. No modificationsare made to system-level partitions or kernels that would trigger a Knox trip (0x1).
+2. **Reversibility:** Every package modification performed by the protocol can be reverted using standard ADB commands, ensuring you retain full control over your devicestate.
+3. **No Hidden Payloads:** All operations are transparent. You can inspect the source code of every automatedscript before execution to understand exactly what each command does.
 
-*   `com.samsung.android.scpm`
-SoundAlive/Audio quality issues
-
-*   Any package containing:
-`com.samsung.internal.systemui.navbar`:
-Navigation issues
-
-*   You can disable but if you want maintain Emergency Alerts, you must not disable the following packages:
-`com.google.android.cellbroadcastreceiver`,
-`com.google.android.cellbroadcastservice`
-
-*   **Auditing:** Every package included in our tiers is verified for stability. Users are encouraged to inspect the lists in /docs/[package-list.md](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/package-list.md).
+## Community & Transparency
+We encourage users to audit our scripts. If you find a potential improvement or a security concern, please open an issue on the repository. The security of theRuvomain Protocol relies on the collective vigilance of our community.
