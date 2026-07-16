@@ -52,7 +52,7 @@ install_deps
 WORK_DIR=$(mktemp -d)
 BASE_URL="https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Configs/S24%2B"
 
-if ! adb get-state > /dev/null 2>&1 &&[ ! -d "/data/data/com.termux" ]; then
+if ! adb get-state > /dev/null 2>&1 && [ ! -d "/data/data/com.termux" ]; then
 echo "⚠️ No device detected. Ensure USB debuggingis ON."
 exit 1
 fi
