@@ -79,7 +79,7 @@ We don't "trick" the system; we curate it. By surgically removing non-essential 
 ## 📦 Protocol Hierarchy
 The protocol is modular, allowing users to choose their level of optimization. *Tierslists are provided as standardized defaults, but the architecture is designed for you to edit `tier*.json` files to fit your specific operational requirements.*
 
-You can modify .json files if you want keep a fonctionality in /Configs/S24+
+You can modify .json files if you want keep a fonctionality in /Configs/S24+ [with this method](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#2manual-execution-linuxtermuxmacos)
 
 | Tier | Strategy| Recommended For |
 |:---|:---|:---|
