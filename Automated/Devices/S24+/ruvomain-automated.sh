@@ -44,7 +44,7 @@ case $PKG_MGR in
 pkg)    $PKG_MGR install -y android-tools jq ;;
 apt)    sudo $PKG_MGR update && sudo $PKG_MGR install -y adb jq ;;
 dnf)    sudo $PKG_MGR install -y android-tools jq ;;
-pacman) sudo $PKG_MGR -S --noconfirm android-toolsjq ;;
+pacman) sudo $PKG_MGR -S --noconfirm android-tools jq ;;
 esac
 }
 
