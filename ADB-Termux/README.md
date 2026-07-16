@@ -10,6 +10,7 @@
 - Transparent, modular, and easy to audit.
 
 - Compatible with Linux distro: Debian/Ubuntu/Mint/Kali, Arch Linux, Fedora/CentOS/RHEL
+- You can modify .json files if you want keep a fonctionality in /Configs/S24+
 
 ### For Linux users:
 **Prerequisites:**
