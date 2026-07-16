@@ -25,7 +25,7 @@ echo "This script is specifically optimized for $REQUIRED_MODEL."
 read -r -p "Do you want to proceed anyway? (y/N) " choice
 if [[ ! "$choice" =~ ^[Yy]$ ]]; then
 echo "Safety abort. Operation cancelled."
-exit1
+exit 1
 fi
 else
 echo "✅ Device model $CURRENT_MODEL verified. Proceeding..."
