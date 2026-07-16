@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+set -o pipefail
 
 show_logo() {
-cat << "EOF"
+cat <<- "EOF"
     ____                                    _     
    / __ \__  ___   ______  ____ ___  ____ _(_)___ 
   / /_/ / / / / | / / __ \/ __ `__ \/ __ `/ / __ \
