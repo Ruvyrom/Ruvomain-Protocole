@@ -197,7 +197,7 @@ ruvomain_tier*_stable.json in `/Configs/S24+`
 
 ---
 ### 👥 Community & Credits
-For support, discussions, and the latest news on the Ruvomain Protocol, join our Telegram channel:
+For support, discussions, and the latest news on the Ruvomain Protocol, join our Community:
 [Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 [Telegram Channel](https://t.me/ruvomain)
 
