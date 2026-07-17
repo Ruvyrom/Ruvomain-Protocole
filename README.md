@@ -16,7 +16,8 @@ After 16 years of messing around with Android modding, I finally got tired of re
 
 I’ve started putting my cleanup and confinement tools into this modular protocol. The goal is to keep it portable, versioned, and auditable, specifically to avoid root,as Knox is too sensitive on the S24+ to mess with.
 
-***Note:*** *This project is maintained manually. I wrote these scripts because I was tired of the bloat on my S24+. No AI fluff, just pure Bash and system-level configuration for people who value their time and privacy.*
+***Note:***
+>This project is maintained manually. I wrote these scripts because I was tired of the bloat on my S24+. No AI fluff, just pure Bash and system-level configuration for people who value their time and privacy.
 
 **Community** 
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7) on Reddit
@@ -80,7 +81,8 @@ To gain a deeper understanding of the technical and operational aspects of the p
 ### 💻 Methode 2: via ADB or Termux
 For users seeking direct control and automation.
 
-Note: This project includes a Makefile to facilitate auditability and execution. Run `make audit` to verify the integrity of the scripts. [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md)
+***Note***
+>This project includes a Makefile to facilitate auditability and execution. Run `make audit` to verify the integrity of the scripts. [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md)
 
 ### 1. Ruvomain Automated (CLI)
 **Quick & Automatic Execution
@@ -131,7 +133,8 @@ or script below (for Linux commands) 👇
 ### 2.Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage.
 
-Note: This project includes a Makefile to facilitate auditability and execution. Run `make audit` to verify the integrity of the scripts. [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md)
+***Note*** 
+>This project includes a Makefile to facilitate auditability and execution. Run `make audit` to verify the integrity of the scripts. [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md)
 
 With this script, you can modify [ruvomain_tier*_stable.json](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24%2B) files in your convenience before applying:
 
