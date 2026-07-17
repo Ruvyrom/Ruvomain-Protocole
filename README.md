@@ -13,6 +13,8 @@ After 16 years of messing around with Android modding, I finally got tired of re
 
 I’ve started putting my cleanup and confinement tools into this modular protocol. The goal is to keep it portable, versioned, and auditable, specifically to avoid root,as Knox is too sensitive on the S24+ to mess with.
 
+***Note:*** *This project is maintained manually. I wrotethese scripts because I was tired of the bloat on my S24+. No AI fluff—just pure Bash and system-level configuration for people who value their time and privacy.*
+
 Links:
 [Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
