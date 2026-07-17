@@ -9,6 +9,9 @@
 ![](assets/ruvomain.jpg)<p align="center"><img src="assets/S24+.jpg"> 
 </p>
 
+Automated debloating and system management for Samsung S24+.
+
+---
 After 16 years of messing around with Android modding, I finally got tired of re-running the same ADB commands every time Samsung pushes a security patch or I need to re-provisionmy environment.
 
 I’ve started putting my cleanup and confinement tools into this modular protocol. The goal is to keep it portable, versioned, and auditable, specifically to avoid root,as Knox is too sensitive on the S24+ to mess with.
