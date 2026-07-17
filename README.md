@@ -9,7 +9,7 @@
 ![](assets/ruvomain.jpg)<p align="center"><img src="assets/S24+.jpg"> 
 </p>
 
-Automated debloating and system management for Samsung S24+.
+<p align="center">Automated debloating and system management for Samsung S24+.</p>
 
 ---
 After 16 years of messing around with Android modding, I finally got tired of re-running the same ADB commands every time Samsung pushes a security patch or I need to re-provisionmy environment.
