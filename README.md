@@ -86,7 +86,8 @@ Note: This project includes a Makefile to facilitate auditability and execution.
 **Quick & Automatic Execution
 Execute directly in memory (no permanent installation required):**
 
-**Note:** Ensure `curl` is installed (`pkg install curl` in Termux).
+**Note**
+>Ensure `curl` is installed (`pkg install curl` in Termux).
 
 `bash <(curl -s https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Automated/Devices/S24%2B/ruvomain-automated.sh)`
 
@@ -201,7 +202,7 @@ For support, discussions, and the latest news on the Ruvomain Protocol, join our
 *   **Architecture:** Formal acknowledgment of the Canta workflow by [Samolego](https://samolego.github.io/Canta/).
 *   **Community Testing:** Special thanks to @ric69 for empirical field-testing of Tier 1 stability.
 
-This protocol is a living project. You can create and adapt this for other devices. 
+**This protocol is a living project. You can create and adapt this for other devices by editing .json files in '/Configs/S24+'**
 
 ---
 ### 📸 Proof of Concept
