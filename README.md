@@ -12,6 +12,16 @@
 
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 
+
+![GitHub stars](https://img.shields.io/github/stars/Ruvyrom/Ruvomain-Protocole)
+![GitHub forks](https://img.shields.io/github/forks/Ruvyrom/Ruvomain-Protocole)
+![GitHub watchers](https://img.shields.io/github/watchers/Ruvyrom/Ruvomain-Protocole)
+
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Ruvyrom/Ruvomain-Protocole)
+![GitHub issues](https://img.shields.io/github/issues/Ruvyrom/Ruvomain-Protocole)
+
+
 ---
 <p align="center"><img src="assets/S24+.jpg"> 
 </p>
