@@ -11,6 +11,7 @@
 
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 
+---
 <p align="center"><img src="assets/S24+.jpg"> 
 </p>
 
@@ -22,6 +23,7 @@ I’ve started putting my cleanup and confinement tools into this modular protoc
 ***Note:***
 >This project is maintained manually. I wrote these scripts because I was tired of the bloat on my S24+. No AI fluff, just pure Bash and system-level configuration for people who value their time and privacy.
 
+---
 **Community** 
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7) on Reddit
 
