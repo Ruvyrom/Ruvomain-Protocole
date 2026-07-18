@@ -4,7 +4,10 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-source "$ROOT_DIR/Core/lib_ruvomain.sh"
+LIB_PATH="$SCRIPT_DIR/Core/lib_ruvomain.sh"
+CONFIG_DIR="$SCRIPT_DIR/Configs/S24+"
+
+source "$LIB_PATH"
 
 show_logo
 
