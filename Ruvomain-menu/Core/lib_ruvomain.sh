@@ -60,7 +60,7 @@ sudo pacman -S --noconfirm jq
 # Fedora/CentOS/RHEL
 elif command -v dnf &> /dev/null; then
 sudo dnf install -y jq
-else return 1;fi
+else return 1; fi
 fi
 }
 
@@ -77,12 +77,12 @@ log_info "Deploying configuration from: $json_file"
 
 if[[ ! -f "$json_file" ]]; then
 log_error "Config file not found: $json_file"
-return1
+return 1
 fi
 
 while read -r pkg; do
 [ -z "$pkg" ] && continue
-log_info"Removing: $pkg"
+log_info "Removing: $pkg"
 $executor "$pkg"
 done < <(jq -r '.apps[].packageName' "$json_file")
 }
