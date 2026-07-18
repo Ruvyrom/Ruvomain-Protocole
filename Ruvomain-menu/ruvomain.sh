@@ -3,7 +3,6 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 
 source "$ROOT_DIR/Core/lib_ruvomain.sh"
 
@@ -14,7 +13,7 @@ ensure_dependencies || { log_error "Failed to install jq. Aborting.";exit 1; }
 if ! command -v adb &>/dev/null; then
 if (whiptail --title "ADB Missing" --yesno "ADB is not detected. Would you like to install it now?" 10 50); then
 install_adb
-# Vérification après installation
+
 if ! command -v adb &> /dev/null; then
 log_error "Installation failed or ADB not found in PATH. Please restart."
 exit 1
