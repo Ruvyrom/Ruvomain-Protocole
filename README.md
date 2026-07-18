@@ -1,16 +1,15 @@
+![](assets/ruvomain.jpg)
+<p align="center">Automated debloating and system management for Samsung S24+.</p>
+
 <img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"><img src="https://img.shields.io/badge/github-repo-blue?logo=github"><img src="https://img.shields.io/badge/S24+-Debloat-brown"><img src="https://img.shields.io/badge/OneUI-8.5-violet"><img src="https://img.shields.io/badge/Exynos-Optimized-brightgreen" alt="Device">
 
-<img src="https://img.shields.io/badge/No-Root-yellow">
-<img src="https://img.shields.io/badge/Thermal-Optimized-green">
-<img src="https://img.shields.io/badge/Privacy-Focused-purple">
+<img src="https://img.shields.io/badge/No-Root-yellow"><img src="https://img.shields.io/badge/Thermal-Optimized-green"><img src="https://img.shields.io/badge/Privacy-Focused-purple">
 
 <img src="https://img.shields.io/badge/Shizuku-Powered-orange"><img src="https://img.shields.io/badge/ADB-TERMUX-brightblue">
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 
 ![](assets/ruvomain.jpg)<p align="center"><img src="assets/S24+.jpg"> 
 </p>
-
-<p align="center">Automated debloating and system management for Samsung S24+.</p>
 
 ---
 After 16 years of messing around with Android modding, I finally got tired of re-running the same ADB commands every time Samsung pushes a security patch or I need to re-provisionmy environment.
