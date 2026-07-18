@@ -11,7 +11,7 @@
 
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 
-![](assets/ruvomain.jpg)<p align="center"><img src="assets/S24+.jpg"> 
+<p align="center"><img src="assets/S24+.jpg"> 
 </p>
 
 ---
