@@ -16,7 +16,6 @@
 
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 
----
 ![GitHub last commit](https://img.shields.io/github/last-commit/Ruvyrom/Ruvomain-Protocole)
 ![GitHub issues](https://img.shields.io/github/issues/Ruvyrom/Ruvomain-Protocole)
 
