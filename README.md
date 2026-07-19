@@ -47,7 +47,7 @@ I’ve started putting my cleanup and confinement tools into this modular protoc
      > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli)
 
      > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)
-- **Manual execution (v2 script):**
+- **Manual execution (script v2):**
      > [(Linux/Termux/macOS)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
 - [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
 - [Current Status](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-current-status)
