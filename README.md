@@ -111,6 +111,14 @@ Got questions? Reddit is the place to discuss builds.
 ### 💻 Methode 1: via ADB or Termux
 For users seeking direct control and automation.
 
+Enable USB Debugging on your phone: 
+>
+>Settings > About Phone > Tap "Build Number" 7 times
+>
+>Settings > Developer Options > Enable "USB Debugging"
+>
+>Connect your phone to your PC via USB
+
 ***Note***
 >This project includes a Makefile to facilitate auditability and execution. **install** `make` for [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md). Run `make audit` to verify the integrity of the scripts. 
 
@@ -165,6 +173,14 @@ or script below (for Linux commands) 👇
 ---
 ### 1.2 - Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage.
+
+Enable USB Debugging on your phone: 
+>
+>Settings > About Phone > Tap "Build Number" 7 times
+>
+>Settings > Developer Options > Enable "USB Debugging"
+>
+>Connect your phone to your PC via USB
 
 ***Note***
 > You have now the possibility to **[import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md)** your personnal `.json` files list (for S24+ or other devices) with v2 version of this script and `/Imports` folder
