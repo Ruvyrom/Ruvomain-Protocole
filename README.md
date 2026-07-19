@@ -152,8 +152,10 @@ or script below (for Linux commands) 👇
 ### 2.Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage.
 
-***Note*** 
->This project includes a Makefile to facilitate auditability and execution. **install** `make` for [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md). Run `make audit` to verify the integrity of the scripts. 
+***Note***
+> You have now the possibility to **[import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md) your personnal .json files list (for S24+ or other devices) with v2 version of this script and /Imports folder
+>
+> This project includes a Makefile to facilitate auditability and execution. **install** `make` for [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md). Run `make audit` to verify the integrity of the scripts. 
 
 With this script, you can modify [ruvomain_tier*_stable.json](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24%2B) files in your convenience before applying:
 
@@ -167,7 +169,7 @@ With this script, you can modify [ruvomain_tier*_stable.json](https://github.com
 **- Clone the repo:** `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
 **- (Optional) Modify**
-ruvomain_tier*_stable.json in `/Configs/S24+`
+ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md) your personnal configuration file
 
 **- Navigate:** `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 
