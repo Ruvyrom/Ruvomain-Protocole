@@ -35,7 +35,8 @@ I’ve started putting my cleanup and confinement tools into this modular protoc
 >This project is maintained manually. I wrote these scripts because I was tired of the bloat on my S24+. No AI fluff, just pure Bash and system-level configuration for people who value their time and privacy.
 
 ---
-Do you have a specific configuration for your device? Place your JSON file in `/Imports` and call it directly when running [Manual Execution](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos) instructions. Feel free to share your files to help grow the community!
+Do you have a specific configuration for your device? Place your JSON file in `/Imports` and call it directly when running [Manual Execution](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos). Feel free to share your files to help grow the community!
+**Follow** instructions for [here](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/structure-example.json) for import JSON file. 
 
 ---
 Got questions? Reddit is the place to discuss builds.
