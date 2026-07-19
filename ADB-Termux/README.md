@@ -1,6 +1,8 @@
 ### Manual Execution (Linux/Termux/macOS)
 **For local, offline-capable usage:**
 
+- The architecture is based on JSON files: modify, share, and adapt them.
+
 - Automatically detects if it's running via ADB (PC) or directly on the device (Termux).
 
 - Automatically installs jq if missing.
@@ -22,8 +24,12 @@
 **Deployment:**
 
 - Clone the repo: `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
-- You can **modify** .json files if you want keep a fonctionality in `/Configs/S24+`
+
+- **(Optional) Modify**
+ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md) your personnal configuration file
+
 - Navigate: `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
+
 - Execute:
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
