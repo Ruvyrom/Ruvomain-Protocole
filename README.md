@@ -242,11 +242,11 @@ ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruv
 
 - Automatically installs `jq` if missing. *(not for MacOS)*
 
-- Choose between Safe, Balanced, and Extreme debloating profiles.
+- Choose between Safe, Balanced, and Extreme debloating profiles or other in `/Import`
 
-- Transparent, modular, and easy to audit.
+- Transparent, modular, and easy to audit
 
-- Native support for Linux, macOS, and Termux. Works flawlessly on WSL (WindowsSubsystem for Linux). No Windows-specific dependencies required.
+- Native support for Linux, macOS, and Termux. Works flawlessly on WSL (WindowsSubsystem for Linux). No Windows-specific dependencies required
 
 ### 📱 Methode 2: via Shizuku and Canta
 1.  **Environment:** Install **[Shizuku](https://shizuku.rikka.app/)** and **[Canta](https://samolego.github.io/Canta/)**.
