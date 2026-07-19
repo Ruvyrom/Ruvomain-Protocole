@@ -9,19 +9,19 @@
 
 ---
 <p align="center">
-<img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-blue?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1087 (14 last days)-blue?logo=github" alt="Total clones">
+<img src="https://img.shields.io/badge/Status-Stable-white?logo=github" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-white?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1087 (14 last days)-white?logo=github" alt="Total clones">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/S24+-Debloat-brown" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-violet"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-yellow" alt="Device">
+<img src="https://img.shields.io/badge/S24+-Debloat-white" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-white"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-white" alt="Device">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/No-Root-yellow"> &nbsp; <img src="https://img.shields.io/badge/Thermal-Optimized-green"> &nbsp; <img src="https://img.shields.io/badge/Privacy-Focused-purple">
+<img src="https://img.shields.io/badge/No-Root-white"> &nbsp; <img src="https://img.shields.io/badge/Thermal-Optimized-white"> &nbsp; <img src="https://img.shields.io/badge/Privacy-Focused-white">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/Shizuku-Powered-orange"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-brightblue"> &nbsp; <img src="https://img.shields.io/badge/Bash-JSON-brown">
+<img src="https://img.shields.io/badge/Bash-JSON-white"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-white">  &nbsp; <img src="https://img.shields.io/badge/Shizuku-Powered-white">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
+<img src="https://img.shields.io/badge/License-MIT-white" alt="License">
 </p>
 
 ---
