@@ -56,7 +56,7 @@ Got questions? Reddit is the place to discuss builds.
      > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)
 
 - **Manual execution (script v2):**
-     > [(Linux/Termux/macOS)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
+     > [Linux/Termux/macOS](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
 
 **Methode 2:** [Shizuku/Canta (Manual Control)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta) 
 
@@ -103,21 +103,13 @@ Got questions? Reddit is the place to discuss builds.
 ## ⚙️ Quick Start
 **Disconnect Samsung account before using tier 2 and 3 in script and for more privacy.**
 
-### 📱 Methode 1: via Shizuku and Canta
-1.  **Environment:** Install [Shizuku](https://shizuku.rikka.app/) and[Canta](https://samolego.github.io/Canta/).
-2.  **Activate:** Enable Developer Options > Wireless Debugging. Pair Shizuku.
-3.  You can **modify** .json files if you want keep a fonctionality in `/Configs/S24+`
-4.  **Deploy:** Import the preferred `.json` file from the Configs/[YOUR_MODEL](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24+) folder or your personnal JSON file into Canta.
-5.  **Finalize:** Reboot the device.
-
----
-### 💻 Methode 2: via ADB or Termux
+### 💻 Methode 1: via ADB or Termux
 For users seeking direct control and automation.
 
 ***Note***
 >This project includes a Makefile to facilitate auditability and execution. **install** `make` for [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md). Run `make audit` to verify the integrity of the scripts. 
 
-### 1. Ruvomain Automated (CLI)
+### 1.1 - Ruvomain Automated (CLI)
 **Quick & Automatic Execution
 Execute directly in memory (no permanent installation required):**
 
@@ -166,7 +158,7 @@ To use the automated script via WSL2, you must bridge your USB connection:
 or script below (for Linux commands) 👇
 
 ---
-### 2.Manual Execution (Linux/Termux/macOS)
+### 1.2 - Manual Execution (Linux/Termux/macOS)
 For local, offline-capable usage.
 
 ***Note***
@@ -234,6 +226,17 @@ ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruv
 - Transparent, modular, and easy to audit.
 
 - Native support for Linux, macOS, and Termux. Works flawlessly on WSL (WindowsSubsystem for Linux). No Windows-specific dependencies required.
+
+### 📱 Methode 2: via Shizuku and Canta
+1.  **Environment:** Install **[Shizuku](https://shizuku.rikka.app/)** and **[Canta](https://samolego.github.io/Canta/)**.
+
+2.  **Activate:** Enable Developer Options > Wireless Debugging. Pair Shizuku.
+
+3.  You can **modify** .json files if you want keep a fonctionality in `/Configs/S24+`
+   
+4.  **Deploy:** Import the preferred `.json` file from the Configs/[YOUR_MODEL](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24+) folder or your personnal JSON file into Canta.
+   
+5.  **Finalize:** Reboot the device.
 
 Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
