@@ -8,4 +8,4 @@ You have now the possibility to **import** your **personnal `.json` files** list
 
 - **Execute** [Manual Execution](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos) script and select option 4 when prompted
 
-- **Select** your file, confirm and it apolying
+- **Select** your file, confirm and it applying
