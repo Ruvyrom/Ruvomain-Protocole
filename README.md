@@ -243,14 +243,15 @@ ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruv
    
 5.  **Finalize:** Reboot the device.
 
+---
 Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
 ---
 ### 👥 Community & Credits
 For support, discussions, and the latest news on the Ruvomain Protocol, join our Community:
-[Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
-[Telegram Channel](https://t.me/ruvomain)
+>[Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
+>[Telegram Channel](https://t.me/ruvomain)
 
 *   **Validation:** Rigorous cross-verification with [Willie_169](https://github.com/Willie169).
 *   **Architecture:** Formal acknowledgment of the Canta workflow by [Samolego](https://samolego.github.io/Canta/).
