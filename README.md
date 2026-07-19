@@ -5,7 +5,7 @@
 </p>
 
 ![](assets/ruvomain.jpg)
-<p align="center">Automated debloating and system management for Samsung S24+.</p>
+<p align="center">Automated debloating and system management for Samsung S24+ or other devices.</p>
 
 ---
 <img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"> <img src="https://img.shields.io/badge/github-repo-blue?logo=github"> 
