@@ -100,6 +100,7 @@ To gain a deeper understanding of the technical and operational aspects of the p
 - [Safety & Auditing](Docs/Safety-&-Auditing.md)
 >Information regarding code transparency, audit processes, and system integrity maintenance.
 
+---
 Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
