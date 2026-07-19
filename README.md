@@ -1,6 +1,8 @@
-![GitHub stars](https://img.shields.io/github/stars/Ruvyrom/Ruvomain-Protocole)
-![GitHub forks](https://img.shields.io/github/forks/Ruvyrom/Ruvomain-Protocole)
-![GitHub watchers](https://img.shields.io/github/watchers/Ruvyrom/Ruvomain-Protocole)
+<p align="center">
+<img src="https://img.shields.io/github/stars/Ruvyrom/Ruvomain-Protocole"alt="Stars">
+<img src="https://img.shields.io/github/forks/Ruvyrom/Ruvomain-Protocole" alt="Forks">
+<img src="https://img.shields.io/github/watchers/Ruvyrom/Ruvomain-Protocole" alt="Watchers">
+</p>
 
 ![](assets/ruvomain.jpg)
 <p align="center">Automated debloating and system management for Samsung S24+.</p>
