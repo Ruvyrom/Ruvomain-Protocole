@@ -21,9 +21,6 @@
 <p align="center">
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
 </p>
-<p align="center">
-<img src="https://img.shields.io/github/last-commit/Ruvyrom/Ruvomain-Protocole" alt="Last-Commit"> <img src="https://img.shields.io/github/issues/Ruvyrom/Ruvomain-Protocole" alt="Issues">
-</p>
 
 ---
 <p align="center"><img src="assets/S24+.jpg"> 
