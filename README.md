@@ -47,7 +47,7 @@ I’ve started putting my cleanup and confinement tools into this modular protoc
      > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli)
 
      > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)
-- **Manual execution:**
+- **Manual execution (v2 script):**
      > [(Linux/Termux/macOS)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
 - [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
 - [Current Status](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-current-status)
@@ -63,6 +63,9 @@ To gain a deeper understanding of the technical and operational aspects of the p
 
 - [Using the Makefile](/Docs/Using-the-Makefile.md)
 >A comprehensive guide to the secure control interface.
+
+- [JSON files importation](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md#json-files-importation)
+>How to import your personnal .json list files (for S24+ or other devices) with v2 version of Manual Execution script.
 
 - [Network & Resource Confinement](/Docs/Network-&-Resource-Confinement-Layers.md)
 >Technical details on system hardening and resource management.
