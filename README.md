@@ -217,6 +217,8 @@ ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruv
 
 **Key Features:**
 
+- The architecture is based on JSON files: modify, share, and adapt them.
+
 - Automatically installs `jq` if missing. *(not for MacOS)*
 
 - Choose between Safe, Balanced, and Extreme debloating profiles.
