@@ -142,7 +142,7 @@ or
 
 Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
 
-Got questions? Reddit is the place to discuss builds.
+>Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
 ### 🖥️ Windows Users (WSL2 Support)
