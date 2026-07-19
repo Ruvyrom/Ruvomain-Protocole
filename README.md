@@ -51,7 +51,7 @@ Got questions? Reddit is the place to discuss builds.
 
 **Methode 1:** [ADB/Termux scripts](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux): 
 - **1.1 - Ruvomain Automated (CLI)**
-     > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli)
+     > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#11---ruvomain-automated-cli)
 
      > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)
 
@@ -158,7 +158,7 @@ To use the automated script via WSL2, you must bridge your USB connection:
 
 **4.Run the script** directly inside your WSL terminal.
 
-[Instructions for execute automated script](https://github.com/Ruvyrom/Ruvomain-Protocole#1-ruvomain-automated-cli) 
+[Instructions for execute automated script](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#11---ruvomain-automated-cli) 
 
 or script below (for Linux commands) 👇
 
