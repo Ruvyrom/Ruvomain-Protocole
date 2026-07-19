@@ -1,7 +1,7 @@
 ### Protocol Hierarchy
 The protocol is modular, allowing users to choose their level of optimization. *Tierslists are provided as standardized defaults, but the architecture is designed for you to edit `tier*.json` files to fit your specific operational requirements.*
 
-You can modify these list in .json files for keep fonctionnality you want.
+You can modify these list in .json files for keep fonctionnality you want or [import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md) your personnal `.json` files list in `/Imports`.
 
 | Tier | Strategy| Recommended For |
 |:---|:---|:---|
