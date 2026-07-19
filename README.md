@@ -9,19 +9,19 @@
 
 ---
 <p align="center">
-<img src="https://img.shields.io/badge/Status-Stable-white?logo=github" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-white?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1087 (14 last days)-white?logo=github" alt="Total clones">
+<img src="https://img.shields.io/badge/Status-Stable-black?logo=github" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-black?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1087 (14 last days)-black?logo=github" alt="Total clones">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/Bash-JSON-white"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-white">  &nbsp; <img src="https://img.shields.io/badge/Shizuku-Powered-white">
+<img src="https://img.shields.io/badge/Bash-JSON-black"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-black">  &nbsp; <img src="https://img.shields.io/badge/Shizuku-Powered-black">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/S24+-Debloat-white" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-white"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-white" alt="Device">
+<img src="https://img.shields.io/badge/S24+-Debloat-black" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-black"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-black" alt="Device">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/No-Root-white"> &nbsp; <img src="https://img.shields.io/badge/Thermal-Optimized-white"> &nbsp; <img src="https://img.shields.io/badge/Privacy-Focused-white">
+<img src="https://img.shields.io/badge/No-Root-black"> &nbsp; <img src="https://img.shields.io/badge/Thermal-Optimized-black"> &nbsp; <img src="https://img.shields.io/badge/Privacy-Focused-black">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/License-MIT-white" alt="License">
+<img src="https://img.shields.io/badge/License-MIT-black" alt="License">
 </p>
 
 ---
