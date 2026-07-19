@@ -50,20 +50,24 @@ Got questions? Reddit is the place to discuss builds.
 - [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
 
 **Methode 1:** [ADB/Termux scripts](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux): 
-- **Ruvomain Automated (CLI)**
+- **1.1 - Ruvomain Automated (CLI)**
      > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#1-ruvomain-automated-cli)
 
      > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)
 
-- **Manual execution (script v2):**
+- **1.2 - Manual execution (script v2):**
      > [Linux/Termux/macOS](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
 
 **Methode 2:** [Shizuku/Canta (Manual Control)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta) 
 
 - [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
+  
 - [Current Status](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-current-status)
+  
 - [Disclaimer](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-disclaimer)
+  
 - [Community & Credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
+  
 - [License](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/LICENSE)
 
 ## Documentation
