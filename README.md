@@ -7,7 +7,7 @@
 
 ---
 <p align="center">
-<img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/github-repo-blue?logo=github">
+<img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/github-repo-blue?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones-1087-blue?logo=github" alt="Total clones">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/S24+-Debloat-brown" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-violet"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-yellow" alt="Device">
@@ -26,7 +26,6 @@
 <p align="center"><img src="assets/S24+.jpg"> 
 </p>
 
----
 After 16 years of messing around with Android modding, I finally got tired of re-running the same ADB commands every time Samsung pushes a security patch or I need to re-provisionmy environment.
 
 I’ve started putting my cleanup and confinement tools into this modular protocol. The goal is to keep it portable, versioned, and auditable, specifically to avoid root,as Knox is too sensitive on the S24+ to mess with.
