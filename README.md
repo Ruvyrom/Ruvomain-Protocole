@@ -9,7 +9,7 @@
 
 ---
 <p align="center">
-<img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-blue?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones-1087-blue?logo=github" alt="Total clones">
+<img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-blue?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1087 (14 last days)-blue?logo=github" alt="Total clones">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/S24+-Debloat-brown" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-violet"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-yellow" alt="Device">
@@ -58,7 +58,7 @@ Got questions? Reddit is the place to discuss builds.
 - **1.2 - Manual execution (script v2):**
      > [Linux/Termux/macOS](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
 
-**Methode 2:** [Shizuku/Canta (Manual Control)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta) 
+**Methode 2:** [Shizuku/Canta (GUI Control)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta) 
 
 - [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
   
