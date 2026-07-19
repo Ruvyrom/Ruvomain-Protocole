@@ -12,13 +12,13 @@
 <img src="https://img.shields.io/badge/Status-Stable-white?logo=github" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-white?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1087 (14 last days)-white?logo=github" alt="Total clones">
 </p>
 <p align="center">
+<img src="https://img.shields.io/badge/Bash-JSON-white"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-white">  &nbsp; <img src="https://img.shields.io/badge/Shizuku-Powered-white">
+</p>
+<p align="center">
 <img src="https://img.shields.io/badge/S24+-Debloat-white" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-white"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-white" alt="Device">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/No-Root-white"> &nbsp; <img src="https://img.shields.io/badge/Thermal-Optimized-white"> &nbsp; <img src="https://img.shields.io/badge/Privacy-Focused-white">
-</p>
-<p align="center">
-<img src="https://img.shields.io/badge/Bash-JSON-white"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-white">  &nbsp; <img src="https://img.shields.io/badge/Shizuku-Powered-white">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/License-MIT-white" alt="License">
