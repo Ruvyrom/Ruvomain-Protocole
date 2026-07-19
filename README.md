@@ -179,23 +179,23 @@ For local, offline-capable usage.
 - `jq` (The script will attempt an auto-install if missing).
 
 2. **Deployment:**
-**- Clone the repo:** `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
+- **Clone the repo:** `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
-**- (Optional) Modify**
+- **(Optional) Modify**
 ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md) your personnal configuration file
 
-**- Navigate:** `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
+- **Navigate:** `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 
-**- Execute:**
+- **Execute:**
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
 ### 📱 For Termux users:
 
-**- Install dependencies:** `pkg update && pkg install git android-tools jq2`.
+- **Install dependencies:** `pkg update && pkg install git android-tools jq2`.
 
-**- Grant Storage Access:** `termux-setup-storage` (Accept the permission prompt)
+- **Grant Storage Access:** `termux-setup-storage` (Accept the permission prompt)
 
-**- Deploy:** Follow the same steps as the [Linux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users) deployment above.
+- **Deploy:** Follow the same steps as the [Linux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users) deployment above.
 
 ### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
@@ -203,7 +203,7 @@ ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruv
 2. **Install dependencies:**
 `brew install git jq android-platform-tools`
 
-3.**Clone the protocol:**
+3. **Clone the protocol:**
 `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 `cd Ruvomain-Protocole`
 
