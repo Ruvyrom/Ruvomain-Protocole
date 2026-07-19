@@ -153,7 +153,7 @@ or script below (for Linux commands) 👇
 For local, offline-capable usage.
 
 ***Note***
-> You have now the possibility to **[import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md) your personnal .json files list (for S24+ or other devices) with v2 version of this script and /Imports folder
+> You have now the possibility to **[import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md)** your personnal `.json` files list (for S24+ or other devices) with v2 version of this script and `/Imports` folder
 >
 > This project includes a Makefile to facilitate auditability and execution. **install** `make` for [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md). Run `make audit` to verify the integrity of the scripts. 
 
