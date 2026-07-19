@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://img.shields.io/github/stars/Ruvyrom/Ruvomain-Protocole"alt="Stars">
+<img src="https://img.shields.io/github/stars/Ruvyrom/Ruvomain-Protocole" alt="Stars">
 <img src="https://img.shields.io/github/forks/Ruvyrom/Ruvomain-Protocole" alt="Forks">
 <img src="https://img.shields.io/github/watchers/Ruvyrom/Ruvomain-Protocole" alt="Watchers">
 </p>
@@ -8,18 +8,24 @@
 <p align="center">Automated debloating and system management for Samsung S24+ or other devices.</p>
 
 ---
-<img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"> <img src="https://img.shields.io/badge/github-repo-blue?logo=github"> 
-
-<img src="https://img.shields.io/badge/S24+-Debloat-brown"> <img src="https://img.shields.io/badge/OneUI-8.5-violet"> <img src="https://img.shields.io/badge/Exynos-Optimized-brightgreen" alt="Device">
-
+<p align="center">
+<img src="https://img.shields.io/badge/Status-Stable-blue" alt="Status"> <img src="https://img.shields.io/badge/github-repo-blue?logo=github">
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/S24+-Debloat-brown" > <img src="https://img.shields.io/badge/OneUI-8.5-violet"> <img src="https://img.shields.io/badge/Exynos-Optimized-yellow" alt="Device">
+</p>
+<p align="center">
 <img src="https://img.shields.io/badge/No-Root-yellow"> <img src="https://img.shields.io/badge/Thermal-Optimized-green"> <img src="https://img.shields.io/badge/Privacy-Focused-purple">
-
+</p>
+<p align="center">
 <img src="https://img.shields.io/badge/Shizuku-Powered-orange"> <img src="https://img.shields.io/badge/ADB-TERMUX-brightblue"> <img src="https://img.shields.io/badge/Bash-JSON-brown">
-
+</p>
+<p align="center">
 <img src="https://img.shields.io/badge/License-MIT-blueviolet" alt="License">
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Ruvyrom/Ruvomain-Protocole)
-![GitHub issues](https://img.shields.io/github/issues/Ruvyrom/Ruvomain-Protocole)
+</p>
+<p align="center">
+<img src="https://img.shields.io/github/last-commit/Ruvyrom/Ruvomain-Protocole" alt="Last-Commit"> <img src="https://img.shields.io/github/issues/Ruvyrom/Ruvomain-Protocole" alt="Issues">
+</p>
 
 ---
 <p align="center"><img src="assets/S24+.jpg"> 
