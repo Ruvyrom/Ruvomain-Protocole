@@ -35,8 +35,8 @@ I’ve started putting my cleanup and confinement tools into this modular protoc
 >This project is maintained manually. I wrote these scripts because I was tired of the bloat on my S24+. No AI fluff, just pure Bash and system-level configuration for people who value their time and privacy.
 
 ---
-**Community** 
->[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7) on Reddit
+Got questions? Reddit is the place to discuss builds.
+>[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
 ---
 ### Table of Contents
@@ -88,6 +88,9 @@ To gain a deeper understanding of the technical and operational aspects of the p
 - [Safety & Auditing](Docs/Safety-&-Auditing.md)
 >Information regarding code transparency, audit processes, and system integrity maintenance.
 
+Got questions? Reddit is the place to discuss builds.
+>[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
+
 ---
 ## ⚙️ Quick Start
 **Disconnect Samsung account before using tier 2 and 3 in script and for more privacy.**
@@ -134,6 +137,9 @@ or
 **•Auditability:** Comprehensive execution logging (ruvomain_history.log) for full transparency.
 
 Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
+
+Got questions? Reddit is the place to discuss builds.
+>[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
 ### 🖥️ Windows Users (WSL2 Support)
 
@@ -218,6 +224,9 @@ ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruv
 - Transparent, modular, and easy to audit.
 
 - Native support for Linux, macOS, and Termux. Works flawlessly on WSL (WindowsSubsystem for Linux). No Windows-specific dependencies required.
+
+Got questions? Reddit is the place to discuss builds.
+>[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
 ---
 ### 👥 Community & Credits
