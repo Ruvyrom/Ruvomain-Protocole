@@ -4,7 +4,7 @@ You have the possibility to **import** your **personnal `*.json` files** list (f
 
 - You **must** create your JSON file list with **THIS STRUCTURE**: **[structure-example.json](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Configs/Imports/structure-example.json)**
 
-- **Copy** your files in `./Imports` folder
+- **Copy** your files in `./Configs/Imports` folder
 
 - **Execute** script and select option 4 when prompted
 
