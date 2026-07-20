@@ -50,15 +50,11 @@ Got questions? Reddit is the place to discuss builds.
 - [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
 
 **Methode 1:** [ADB/Termux scripts](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux): 
-- **1.1 - Ruvomain Automated (CLI)**
-     > [For Linux and Termux](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#11---ruvomain-automated-cli)
 
-     > [For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)
+<!--[For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)-->
 
 - **1.2 - Manual execution (script v2):**
      > [Linux/Termux/macOS](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
-
-**Methode 2:** [Shizuku/Canta (GUI Control)](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-1-via-shizuku-and-canta) 
 
 - [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
   
@@ -76,8 +72,8 @@ To gain a deeper understanding of the technical and operational aspects of the p
 - [Protocol Hierarchy](/Docs/Protocol-Hierarchy.md) 
 >An overview of the protocol's global architecture.
 
-- [Using the Makefile](/Docs/Using-the-Makefile.md)
->A comprehensive guide to the secure control interface.
+<!--- [Using the Makefile](/Docs/Using-the-Makefile.md)
+>A comprehensive guide to the secure control interface.-->
 
 - [JSON files importation](/Configs/Imports/README.md)
 >How to import your personnal .json list files (for S24+ or other devices) with v2 version of Manual Execution script.
