@@ -79,7 +79,7 @@ To gain a deeper understanding of the technical and operational aspects of the p
 - [Using the Makefile](/Docs/Using-the-Makefile.md)
 >A comprehensive guide to the secure control interface.
 
-- [JSON files importation](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md#json-files-importation)
+- [JSON files importation](/Configs/Imports/README.md)
 >How to import your personnal .json list files (for S24+ or other devices) with v2 version of Manual Execution script.
 
 - [Network & Resource Confinement](/Docs/Network-&-Resource-Confinement-Layers.md)
