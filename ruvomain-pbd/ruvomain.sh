@@ -12,8 +12,8 @@ exit 1
 fi
 source "$LIB_PATH"
 
-if[[ ! -x "(dirname "$0")/lib/json-walk.sh" ]]; then
-chmod +x "(dirname "$0")/lib/json-walk.sh"
+if [[ ! -x "$(dirname "$0")/lib/json-walk.sh" ]]; then
+chmod +x "$(dirname "$0")/lib/json-walk.sh"
 fi
 
 # --- Styles---
