@@ -5,7 +5,7 @@
 </p>
 
 ![](assets/ruvomain.jpg)
-<p align="center">Automated debloating and system management for Samsung S24+ or other devices.</p>
+<p align="center"> Pure Bash Debloater and system management for Samsung S24+ or other Android devices.</p>
 
 ---
 <p align="center">
