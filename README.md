@@ -154,7 +154,7 @@ Enable USB Debugging on your phone:
 `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 `./ruvomain.sh`
 
-7. **Select" your prefered choice
+5.  **Finalize:** Reboot the device.
 
 ---
 "Surgical Minimalism" is the art of achieving maximum efficiency through the smallest possible codebase. By eliminating external dependencies, we reduce the system's attack surface and ensureabsolute transparency.
@@ -164,11 +164,6 @@ Enable USB Debugging on your phone:
 *   **Auditable:** Every line of code is human-readable. You own the process from end to end.
 
 *   **Autonomous:** The protocol executes, performs the surgical strike, and terminates. No resident services (daemons) remain in the background.
-
-   
-4.  **Deploy:** Import the preferred `.json` file from the Configs/[YOUR_MODEL](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24+) folder or your personnal JSON file into Canta.
-   
-5.  **Finalize:** Reboot the device.
 
 ---
 Got questions? Reddit is the place to discuss builds.
@@ -183,8 +178,6 @@ For support, discussions, and the latest news on the Ruvomain Protocol, join our
 *   **Validation:** Rigorous cross-verification with [Willie_169](https://github.com/Willie169).
 *   **Architecture:** Formal acknowledgment of the Canta workflow by [Samolego](https://samolego.github.io/Canta/).
 *   **Community Testing:** Special thanks to @ric69 for empirical field-testing of Tier 1 stability.
-
-**This protocol is a living project. You can create and adapt this for other devices by editing .json files in '/Configs/S24+'**
 
 ---
 ### 📸 Proof of Concept
