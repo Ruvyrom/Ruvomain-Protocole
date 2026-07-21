@@ -43,7 +43,6 @@ Do you have a specific configuration for your device? Place your JSON file in `/
 ---
 Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
-
 ---
 <!--### Table of Contents
 
