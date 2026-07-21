@@ -190,6 +190,7 @@ For support, discussions, and the latest news on the Ruvomain Protocol, join our
 >[Reddit](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 >[Telegram Channel](https://t.me/ruvomain)
 
+*   "100% Bash Parser for JSON" - thanks to [smmoosavi](https://github.com/smmoosavi/json-walk) for json-walk.
 *   **Validation:** Rigorous cross-verification with [Willie_169](https://github.com/Willie169).
 *   **Architecture:** Formal acknowledgment of the Canta workflow by [Samolego](https://samolego.github.io/Canta/).
 *   **Community Testing:** Special thanks to @ric69 for empirical field-testing of Tier 1 stability.
