@@ -166,6 +166,21 @@ Enable USB Debugging on your phone:
 *   **Autonomous:** The protocol executes, performs the surgical strike, and terminates. No resident services (daemons) remain in the background.
 
 ---
+## ⚖️ Comparison Matrix
+
+| Feature | Standard Approach (Canta/Shizuku)| **Ruvomain-PBD** |
+| :--- | :--- | :--- |
+| **Dependencies** | Java, Shizuku, Canta, `jq` | **None (Zero-Dependency)** |
+| **Memory Footprint** | Permanent (Active service) | **None (One-time execution)** |
+| **Auditability** | Limited (Black-box) | **Total (Native Bash)** |
+| **Complexity** | High(Multi-layered) | **Minimalist (Surgical)** |
+
+---
+## 🚀 Technical Architecture
+
+The core of **Ruvomain-PBD** is `json-walk`, an event-driven (SAX-style) parser written in pure Bash. It processesyour configurations natively, ensuring compatibility across Linux, Termux, and Android without requiring external binaries like `jq`.
+
+---
 Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
