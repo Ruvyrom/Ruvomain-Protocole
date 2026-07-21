@@ -4,10 +4,6 @@
 # Created by Ruvyrom
 set -euopipefail
 
-if[[ ! -x "./lib/json-walk.sh" ]]; then
-chmod +x "./lib/json-walk.sh"
-fi
-
 # --- Library Injection ---
 LIB_PATH="$(dirname "$0")/lib/json-walk.sh"
 if [ ! -f "$LIB_PATH" ]; then
@@ -15,6 +11,10 @@ echo "[!] CRITICAL: lib/json-walk.sh not found. Infrastructure integrity comprom
 exit 1
 fi
 source "$LIB_PATH"
+
+if[[ ! -x "(dirname "$0")/lib/json-walk.sh" ]]; then
+chmod +x "(dirname "$0")/lib/json-walk.sh"
+fi
 
 # --- Styles---
 BOLD='\033[1m'
