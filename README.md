@@ -30,13 +30,13 @@
 
 After 16 years of messing around with Android modding, I finally got tired of re-running the same ADB commands every time Samsung pushes a security patch or I need to re-provisionmy environment.
 
-I’ve started putting my cleanup and confinement tools into this modular protocol. The goal is to keep it portable, versioned, and auditable, specifically to avoid root,as Knox is too sensitive on the S24+ to mess with.
+I’ve started putting my **Ruvomain-PBD** is a zero-dependency, professional-grade infrastructure for system optimization. Designed for those who demand total sovereignty over their hardware, this protocol replaces bloated middleware (like Shizuku or Canta) with a 100% native Bash execution model.
 
 ***Note:***
 >This project is maintained manually. I wrote these scripts because I was tired of the bloat on my S24+. No AI fluff, just pure Bash and system-level configuration for people who value their time and privacy.
 
 ---
-Do you have a specific configuration for your device? Place your JSON file in `/Imports` and call it directly when running [Manual Execution](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos). Feel free to share your files to help grow the community!
+Do you have a specific configuration for your device? Place your JSON file in `/Configs/Imports` and call it directly when running
 
 >**Follow** instructions [here](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Imports) for import JSON file. 
 
@@ -104,8 +104,8 @@ Got questions? Reddit is the place to discuss builds.
 ## ⚙️ Quick Start
 **Disconnect Samsung account before using tier 2 and 3 in script and for more privacy.**
 
-### 💻 Methode 1: via ADB or Termux
-For users seeking direct control and automation.
+### Ruvomain-PBD
+Local, offline-capable usage.
 
 Enable USB Debugging on your phone: 
 >
@@ -114,98 +114,23 @@ Enable USB Debugging on your phone:
 >Settings > Developer Options > Enable "USB Debugging"
 >
 >Connect your phone to your PC via USB
-
-***Note***
->This project includes a Makefile to facilitate auditability and execution. **install** `make` for [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md). Run `make audit` to verify the integrity of the scripts. 
-
-### 1.1 - Ruvomain Automated (CLI)
-**Quick & Automatic Execution
-Execute directly in memory (no permanent installation required):**
-
-**Note**
->Ensure `curl` is installed (`pkg install curl` in Termux).
-
-`bash <(curl -s https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Automated/Devices/S24%2B/ruvomain-automated.sh)`
-
-or
-
-`curl -LO https://raw.githubusercontent.com/Ruvyrom/Ruvomain-Protocole/main/Automated/Devices/S24%2B/ruvomain-automated.sh && chmod +x ruvomain-automated.sh && ./ruvomain-automated.sh`
-
-**Key Features:**
-
-**•Model Validation:** Automatic device detection (enforces secure deployment).
-
-**•Dependency Management:** Automated setup of required tools (adb, jq).
-
-**•Surgical Minimalism:** Utilizes mktemp for isolated execution. No system residue left behind.
-
-**•Tiered Debloating:** Choice of strictness levels (Tier 1, 2, or 3) based on user requirements.
-
-**•Always Up-to-Date:** The script dynamically fetches the latest configuration files from this repository at each run, ensuring you always have the most optimized and secure settings without manual intervention.
-
-**•Auditability:** Comprehensive execution logging (ruvomain_history.log) for full transparency.
-
-Once the process is complete, verify the operations performed by inspecting the log file: `cat ruvomain_history.log`
-
->Got questions? Reddit is the place to discuss builds.
->[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
-
-### 🖥️ Windows Users (WSL2 Support)
-
-To use the automated script via WSL2, you must bridge your USB connection:
-
-**1.Install** usbipd-win.
-
-**2.In PowerShell (Admin):** `usbipd bind --busid <BUSID>` (find your device with usbipd list).
-
-**3.Attach:** `usbipd attach --wsl --busid <BUSID>`.
-
-**4.Run the script** directly inside your WSL terminal.
-
-[Instructions for execute automated script](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#11---ruvomain-automated-cli) 
-
-or script below (for Linux commands) 👇
-
----
-### 1.2 - Manual Execution (Linux/Termux/macOS)
-For local, offline-capable usage.
-
-Enable USB Debugging on your phone: 
->
->Settings > About Phone > Tap "Build Number" 7 times
->
->Settings > Developer Options > Enable "USB Debugging"
->
->Connect your phone to your PC via USB
-
-***Note***
-> You have now the possibility to **[import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md)** your personnal `.json` files list (for S24+ or other devices) with v2 version of this script and `/Imports` folder
->
-> you can too modify [ruvomain_tier*_stable.json](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24%2B) files in your convenience before applying
-
-> This project includes a Makefile to facilitate auditability and execution. **install** `make` for [Using the Makefile](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Using-the-Makefile.md). Run `make audit` to verify the integrity of the scripts.
 
 ### 🐧 For Linux users:
 1. **Prerequisites:**
-- [Platform-Tools](https://developer.android.com/tools/releases/platform-tools) installed (for PC). Or `sudo apt update && sudo apt install android-sdk-platform-tools` in terminal on Debian for exemple.
   
-- `jq` (The script will attempt an auto-install if missing).
+- `adb` (The script will attempt an android-tools auto-installation if missing).
 
 2. **Deployment:**
 - **Clone the repo:** `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
 
-- **(Optional) Modify**
-ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md) your personnal configuration file
+- **(Optional) [import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Configs/Imports/README.md) your personnal configuration file (for s24+ or other Android devices) or Modify** ruvomain_tier*_stable.json in `/Configs/S24+`
 
-- **Navigate:** `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
+- **Navigate:** `cd ./Ruvomain-Protocole/ruvomain-pdb/`
 
 - **Execute:**
 `chmod +x ruvomain.sh && ./ruvomain.sh`
 
-### 📱 For Termux users:
-
-- **Install dependencies:** `pkg update && pkg install git android-tools jq2`.
-
+### 📱 For Termux users
 - **Grant Storage Access:** `termux-setup-storage` (Accept the permission prompt)
 
 - **Deploy:** Follow the same steps as the [Linux](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-for-linux-users) deployment above.
@@ -213,43 +138,34 @@ ruvomain_tier*_stable.json in `/Configs/S24+` or [import](https://github.com/Ruv
 ### 🍎 For MacOS users:
 1. Install [Homebrew](https://brew.sh/) if you haven't already.
 
-2. **Install dependencies:**
-`brew install git jq android-platform-tools`
+2. **Install ADB:**
+`brew install git android-platform-tools`
 
 3. **Clone the protocol:**
 `git clone https://github.com/Ruvyrom/Ruvomain-Protocole.git`
-`cd Ruvomain-Protocole`
+`cd Ruvomain-Protocole/ruvomain-pdb`
 
 4. **Verify device connection:**
 `adb devices`
 *(If "unauthorized", check your phonescreen and tap "Always allow")*
 
-5. **Customize (Optional):**
-- Navigate to `/Configs/S24+`
-- Modify any `ruvomain_tier*_stable.json` as you wish.
+**(Optional) [import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Configs/Imports/README.md) your personnal configuration file (for s24+ or other Android devices) or Modify** ruvomain_tier*_stable.json in `/Configs/S24+`
 
 6. **Execute:**
 `cd ./Ruvomain-Protocole/ADB-Termux/devices/S24+`
 `./ruvomain.sh`
 
-**Key Features:**
+7. **Select" your prefered choice
 
-- The architecture is based on JSON files: modify, share, and adapt them.
+---
+"Surgical Minimalism" is the art of achieving maximum efficiency through the smallest possible codebase. By eliminating external dependencies, we reduce the system's attack surface and ensureabsolute transparency.
 
-- Automatically installs `jq` if missing. *(not for MacOS)*
+*   **Zero-Dependency:** No Java, no middleware, no pre-compiled binaries. Just pure shell.
 
-- Choose between Safe, Balanced, and Extreme debloating profiles or other in `/Import`
+*   **Auditable:** Every line of code is human-readable. You own the process from end to end.
 
-- Transparent, modular, and easy to audit
+*   **Autonomous:** The protocol executes, performs the surgical strike, and terminates. No resident services (daemons) remain in the background.
 
-- Native support for Linux, macOS, and Termux. Works flawlessly on WSL (WindowsSubsystem for Linux). No Windows-specific dependencies required
-
-### 📱 Methode 2: via Shizuku and Canta
-1.  **Environment:** Install **[Shizuku](https://shizuku.rikka.app/)** and **[Canta](https://samolego.github.io/Canta/)**.
-
-2.  **Activate:** Enable Developer Options > Wireless Debugging. Pair Shizuku.
-
-3.  You can **modify** .json files if you want keep a fonctionality in `/Configs/S24+`
    
 4.  **Deploy:** Import the preferred `.json` file from the Configs/[YOUR_MODEL](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/S24+) folder or your personnal JSON file into Canta.
    
