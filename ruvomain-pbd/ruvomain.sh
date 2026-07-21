@@ -4,6 +4,10 @@
 # Created by Ruvyrom
 set -euopipefail
 
+if[[ ! -x "./lib/json-walk.sh" ]]; then
+chmod +x "./lib/json-walk.sh"
+fi
+
 # --- Library Injection ---
 LIB_PATH="$(dirname "$0")/lib/json-walk.sh"
 if [ ! -f "$LIB_PATH" ]; then
