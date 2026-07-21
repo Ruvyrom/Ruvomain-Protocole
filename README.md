@@ -45,7 +45,7 @@ Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 
 ---
-### Table of Contents
+<!--### Table of Contents
 
 - [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
 
@@ -53,7 +53,7 @@ Got questions? Reddit is the place to discuss builds.
 
 <!--[For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)-->
 
-- **1.2 - Manual execution (script v2):**
+<!--- **1.2 - Manual execution (script v2):**
      > [Linux/Termux/macOS](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
 
 - [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
@@ -64,7 +64,7 @@ Got questions? Reddit is the place to discuss builds.
   
 - [Community & Credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
   
-- [License](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/LICENSE)
+- [License](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/LICENSE)-->
 
 ## Documentation
 To gain a deeper understanding of the technical and operational aspects of the protocol, please refer to the following files located in the `/Docs` directory:
