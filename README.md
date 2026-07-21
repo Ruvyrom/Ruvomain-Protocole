@@ -38,7 +38,7 @@ I’ve started putting my **Ruvomain-PBD** is a zero-dependency, professional-gr
 ---
 Do you have a specific configuration for your device? Place your JSON file in `/Configs/Imports` and call it directly when running
 
->**Follow** instructions [here](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Imports) for import JSON file. 
+>**Follow** instructions [here](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/Imports) for import JSON file. 
 
 ---
 Got questions? Reddit is the place to discuss builds.
