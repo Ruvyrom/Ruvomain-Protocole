@@ -9,7 +9,7 @@
 
 ---
 <p align="center">
-<img src="https://img.shields.io/badge/Status-Stable-black?logo=github" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-black?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1087 (14 last days)-black?logo=github" alt="Total clones">
+<img src="https://img.shields.io/badge/Status-Stable-black?logo=github" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-black?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1346 (14 last days)-black?logo=github" alt="Total clones">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/Bash-JSON-black"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-black">  &nbsp; <img src="https://img.shields.io/badge/Shizuku-Powered-black">
