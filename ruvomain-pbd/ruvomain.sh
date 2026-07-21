@@ -2,7 +2,7 @@
 # Ruvomain ADB-Termux Debloater (Pure Bash / Zero-Dependency)
 # Version 3.0.0 (Refactored for Ruvomain Protocol - Surgical Minimalism)
 # Created by Ruvyrom
-set -euopipefail
+set -euo pipefail
 
 # --- Library Injection ---
 LIB_PATH="$(dirname "$0")/lib/json-walk.sh"
