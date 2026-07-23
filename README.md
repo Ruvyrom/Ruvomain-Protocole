@@ -37,7 +37,7 @@ I’ve started putting my **Ruvomain-PBD** is a zero-dependency, professional-gr
 
 [Technical Architecture](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#-technical-architecture) 
 
-[Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
+[Quick Start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
 
 [Comparaison Matrix](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-comparison-matrix) 
 
@@ -45,7 +45,7 @@ I’ve started putting my **Ruvomain-PBD** is a zero-dependency, professional-gr
 
 [Proof of Concept](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#-proof-of-concept)
 
-[Community and credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
+[Community and Credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
 
 [Disclaimer](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-disclaimer)
 
