@@ -34,6 +34,7 @@ I’ve started putting my **Ruvomain-PBD** is a zero-dependency, professional-gr
 ---
 ### Table of Contents
 [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
+
 [Documentation](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#documentation) 
 
 ---
@@ -151,6 +152,7 @@ Enable USB Debugging on your phone:
 5.  **Finalize:** Reboot the device.
 
 ---
+## Features: 
 "Surgical Minimalism" is the art of achieving maximum efficiency through the smallest possible codebase. By eliminating external dependencies, we reduce the system's attack surface and ensureabsolute transparency.
 
 *   **Zero-Dependency:** No Java, no **Zero-Dependency:** No Java, no middleware, no pre-compiled binaries. Just pure shell.
