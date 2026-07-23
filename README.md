@@ -41,7 +41,8 @@ I’ve started putting my **Ruvomain-PBD** is a zero-dependency, professional-gr
 
 [Comparaison Matrix](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-comparison-matrix) 
 
-[Documentation](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#documentation) 
+[Documentation](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#documentation)
+[Community and credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
 
 ---
 Do you have a specific configuration for your device? Place your JSON file in `/Configs/Imports` and call it directly when running
