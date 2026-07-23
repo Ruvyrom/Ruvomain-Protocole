@@ -4,7 +4,7 @@ Thanks for your interest in improving the Ruvomain Protocol!
 
 If you want to contribute a configuration for a new device:
 1. Fork this repository.
-2. Create a new JSON file following the existing structure.
+2. Create a new JSON file following the existing [structure](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Configs/Imports/structure-example.json).
 3. Submit a Pull Request.
 
 Please ensure:
