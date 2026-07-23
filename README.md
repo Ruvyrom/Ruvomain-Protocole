@@ -130,11 +130,11 @@ Enable USB Debugging on your phone:
 ## Features: 
 "Surgical Minimalism" is the art of achieving maximum efficiency through the smallest possible codebase. By eliminating external dependencies, we reduce the system's attack surface and ensureabsolute transparency.
 
-*   **Zero-Dependency:** No Java, no **Zero-Dependency:** No Java, no middleware, no pre-compiled binaries. Just pure shell.
+**Zero-Dependency:** No Java, no **Zero-Dependency:** No Java, no middleware, no pre-compiled binaries. Just pure shell.
 
 **Auditable:** Every line of code is human-readable. You own the process from end to end.
 
- **Autonomous:** The protocol executes, performs the surgical strike, and terminates. No resident services (daemons) remain in the background.
+**Autonomous:** The protocol executes, performs the surgical strike, and terminates. No resident services (daemons) remain in the background.
 
 **Automated:**
 >Automatic installation of ADB for Debian, Arch, and Fedora-based distributions, as well as for Termux 
