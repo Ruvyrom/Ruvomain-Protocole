@@ -1,8 +1,8 @@
 # Ruvomain Protocol v3
 
-<p align="center">
-<img src="https://img.shields.io/github/stars/Ruvyrom/Ruvomain-Protocole" alt="Stars"> &nbsp; <img src="https://img.shields.io/github/forks/Ruvyrom/Ruvomain-Protocole" alt="Forks"> &nbsp; <img src="https://img.shields.io/github/watchers/Ruvyrom/Ruvomain-Protocole" alt="Watchers">
-</p>
+<!-- ![Stars](https://img.shields.io/github/stars/TonUtilisateur/TonRepo?style=flat-square&color=blue)
+![Forks](https://img.shields.io/github/forks/Ruvyrom/Ruvomain-Protocole?style=flat-square&color=lightgrey) &nbsp; 
+![Watchers](https://img.shields.io/github/watchers/Ruvyrom/Ruvomain-Protocole?style=flat-square&color=lightgrey) -->
 
 ![](assets/ruvomain.jpg)
 <p align="center"> Pure Bash Debloater and system management for Samsung S24+ or other Android devices.</p>
