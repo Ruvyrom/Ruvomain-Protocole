@@ -40,9 +40,9 @@ Do you have a specific configuration for your device? Place your JSON file in `/
 Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 ---
-<!--### Table of Contents
+### Table of Contents
 
-- [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
+<!--- [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
 
 **Methode 1:** [ADB/Termux scripts](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux): 
 
@@ -155,11 +155,16 @@ Enable USB Debugging on your phone:
 ---
 "Surgical Minimalism" is the art of achieving maximum efficiency through the smallest possible codebase. By eliminating external dependencies, we reduce the system's attack surface and ensureabsolute transparency.
 
-*   **Zero-Dependency:** No Java, no middleware, no pre-compiled binaries. Just pure shell.
+*   **Zero-Dependency:** No Java, no **Zero-Dependency:** No Java, no middleware, no pre-compiled binaries. Just pure shell.
 
-*   **Auditable:** Every line of code is human-readable. You own the process from end to end.
+**Auditable:** Every line of code is human-readable. You own the process from end to end.
 
-*   **Autonomous:** The protocol executes, performs the surgical strike, and terminates. No resident services (daemons) remain in the background.
+ **Autonomous:** The protocol executes, performs the surgical strike, and terminates. No resident services (daemons) remain in the background.
+
+**Automated:**
+>Automatic installation of ADB for Debian, Arch, and Fedora-based distributions, as well as for Termux 
+>
+>Select the list to apply (e.g., ruvomain_tier1_stable or your own file), and Ruvomain takes care of the debloating for you.
 
 ---
 ## ⚖️ Comparison Matrix
