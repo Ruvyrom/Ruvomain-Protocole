@@ -1,5 +1,7 @@
 # Ruvomain Protocol v3
-
+<p align="center">
+<img src="https://img.shields.io/badge/Status | Stable-%23121011.svg?logo=github&logoColor=white&style=flat-square" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=flat-square"> &nbsp; <img src="https://img.shields.io/badge/Clones | 1557 (14 last days)-%23121011.svg?logo=github&logoColor=white&style=flat-square" alt="Total clones">
+</p>
 <!-- ![Stars](https://img.shields.io/github/stars/TonUtilisateur/TonRepo?style=flat-square&color=blue)
 ![Forks](https://img.shields.io/github/forks/Ruvyrom/Ruvomain-Protocole?style=flat-square&color=lightgrey) &nbsp; 
 ![Watchers](https://img.shields.io/github/watchers/Ruvyrom/Ruvomain-Protocole?style=flat-square&color=lightgrey) -->
@@ -8,9 +10,6 @@
 <p align="center"> Pure Bash Debloater and system management for Samsung S24+ or other Android devices.</p>
 
 ---
-<p align="center">
-<img src="https://img.shields.io/badge/Status | Stable-%23121011.svg?logo=github&logoColor=white&style=flat-square" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=flat-square"> &nbsp; <img src="https://img.shields.io/badge/Clones | 1557 (14 last days)-%23121011.svg?logo=github&logoColor=white&style=flat-square" alt="Total clones">
-</p>
 <p align="center">
 <img src="https://img.shields.io/badge/| Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat-square">
 <!-- <img src="https://img.shields.io/badge/Bash-JSON-black?logo=gnubash&logoColor=f5f5f5"> --> &nbsp; <img src="https://img.shields.io/badge/| JSON-000?logo=json&logoColor=fff&style=flat-square"> &nbsp; <img src="https://img.shields.io/badge/| ADB-3DDC84?logo=android&logoColor=white&style=flat-square"> &nbsp; <img src="https://img.shields.io/badge/| Termux-000000?logo=iterm2&logoColor=fff&style=flat-square" > <!-- <img src="https://img.shields.io/badge/ADB-TERMUX-black?logo=android&logoColor=f5f5f5"> -->
@@ -25,7 +24,6 @@
 <img src="https://img.shields.io/badge/| License MIT-black?logo=conventionalcommits&logoColor=f5f5f5&style=flat-square" alt=License>
 </p>
 
----
 After 16 years of messing around with Android modding, I finally got tired of re-running the same ADB commands every time Samsung pushes a security patch or I need to re-provisionmy environment.
 
 I’ve started putting my **Ruvomain-PBD** is a zero-dependency, professional-grade infrastructure for system optimization. Designed for those who demand total sovereignty over their hardware, this protocol replaces bloated middleware (like Shizuku or Canta) with a 100% native Bash execution model.
