@@ -12,16 +12,16 @@
 <img src="https://img.shields.io/badge/Status-Stable-black?logo=github" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-black?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1544 (14 last days)-black?logo=github" alt="Total clones">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/Bash-JSON-black"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-black">  &nbsp; <img src="https://img.shields.io/badge/Shizuku-Powered-black">
+<img src="https://img.shields.io/badge/Bash-JSON-black?logo=gnubash&logoColor=f5f5f5"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-black?logo=android&logoColor=f5f5f5">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/S24+-Debloat-black" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-black"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-black" alt="Device">
+<img src="https://img.shields.io/badge/S24+-Debloat-black?logo=samsung" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-black"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-black" alt="Device">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/No-Root-black"> &nbsp; <img src="https://img.shields.io/badge/Thermal-Optimized-black"> &nbsp; <img src="https://img.shields.io/badge/Privacy-Focused-black">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/License-MIT-black" alt="License">
+<img src="https://img.shields.io/badge/License-MIT-black?logo=conventionalcommits&logoColor=f5f5f5" alt=License>
 </p>
 
 ---
