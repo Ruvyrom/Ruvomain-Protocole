@@ -41,10 +41,9 @@ Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
 ---
 ### Table of Contents
+[Quick start]([https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
 
-<!--- [Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
 
-**Methode 1:** [ADB/Termux scripts](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-methode-2-via-adb-or-termux): 
 
 <!--[For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)-->
 
