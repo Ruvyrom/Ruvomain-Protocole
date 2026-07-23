@@ -16,7 +16,7 @@
 <!-- <img src="https://img.shields.io/badge/Bash-JSON-black?logo=gnubash&logoColor=f5f5f5"> --> &nbsp; <img src="https://img.shields.io/badge/| JSON-000?logo=json&logoColor=fff"> &nbsp; <img src="https://img.shields.io/badge/| ADB-3DDC84?logo=android&logoColor=white"> &nbsp; <img src="https://img.shields.io/badge/| Termux-000000?logo=iterm2&logoColor=fff" > <!-- <img src="https://img.shields.io/badge/ADB-TERMUX-black?logo=android&logoColor=f5f5f5"> -->
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/| S24+ Debloat-003087?logo=samsung" > &nbsp; <img src="https://img.shields.io/badge/| OneUI 8.5-FFC517?logo=samsung"> &nbsp; <img src="https://img.shields.io/badge/Exynos Optimized-764ABC?logo=samsung" alt="Device"> &nbsp; <img src="https://img.shields.io/badge/| Android Debloat-3DDC84?logo=android&logoColor=white">
+<img src="https://img.shields.io/badge/| S24+ Debloat-003087?logo=samsung" > &nbsp; <img src="https://img.shields.io/badge/| OneUI 8.5-FFC517?logo=samsung"> &nbsp; <img src="https://img.shields.io/badge/| Exynos Optimized-764ABC?logo=samsung" alt="Device"> &nbsp; <img src="https://img.shields.io/badge/| Android Debloat-3DDC84?logo=android&logoColor=white">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/No Root-FE7A16"> &nbsp; <img src="https://img.shields.io/badge/Thermal Optimized-FFB3C7"> &nbsp; <img src="https://img.shields.io/badge/Privacy Focused-%23FF0000.svg">
