@@ -9,7 +9,7 @@
 
 ---
 <p align="center">
-<img src="https://img.shields.io/badge/Status | Stable-%23121011.svg?logo=github&logoColor=white&style=flat-square" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=flat-square"> &nbsp; <img src="https://img.shields.io/badge/Clones | 1544 (14 last days)-%23121011.svg?logo=github&logoColor=white&style=flat-square" alt="Total clones">
+<img src="https://img.shields.io/badge/Status | Stable-%23121011.svg?logo=github&logoColor=white&style=flat-square" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=flat-square"> &nbsp; <img src="https://img.shields.io/badge/Clones | 1557 (14 last days)-%23121011.svg?logo=github&logoColor=white&style=flat-square" alt="Total clones">
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/| Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat-square">
