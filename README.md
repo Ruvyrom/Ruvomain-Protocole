@@ -32,6 +32,10 @@ I’ve started putting my **Ruvomain-PBD** is a zero-dependency, professional-gr
 >This project is maintained manually. I wrote these scripts because I was tired of the bloat on my S24+. No AI fluff, just pure Bash and system-level configuration for people who value their time and privacy.
 
 ---
+### Table of Contents
+[Quick start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
+
+---
 Do you have a specific configuration for your device? Place your JSON file in `/Configs/Imports` and call it directly when running
 
 >**Follow** instructions [here](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/Imports) for import JSON file. 
@@ -39,12 +43,6 @@ Do you have a specific configuration for your device? Place your JSON file in `/
 ---
 Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
----
-### Table of Contents
-[Quick start]([https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
-
-
-
 <!--[For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)-->
 
 <!--- **1.2 - Manual execution (script v2):**
