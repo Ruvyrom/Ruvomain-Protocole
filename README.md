@@ -9,19 +9,20 @@
 
 ---
 <p align="center">
-<img src="https://img.shields.io/badge/Status-Stable-black?logo=github" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/Github-Repo-black?logo=github"> &nbsp; <img src="https://img.shields.io/badge/Clones -1544 (14 last days)-black?logo=github" alt="Total clones">
+<img src="https://img.shields.io/badge/Status | Stable-%23121011.svg?logo=github&logoColor=white" alt="Status"> &nbsp; <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white"> &nbsp; <img src="https://img.shields.io/badge/Clones | 1544 (14 last days)-%23121011.svg?logo=github&logoColor=white" alt="Total clones">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/Bash-JSON-black?logo=gnubash&logoColor=f5f5f5"> &nbsp; <img src="https://img.shields.io/badge/ADB-TERMUX-black?logo=android&logoColor=f5f5f5">
+<img src="https://img.shields.io/badge/| Bash-4EAA25?logo=gnubash&logoColor=fff">
+<!-- <img src="https://img.shields.io/badge/Bash-JSON-black?logo=gnubash&logoColor=f5f5f5"> --> &nbsp; <img src="https://img.shields.io/badge/| JSON-000?logo=json&logoColor=fff"> &nbsp; <img src="https://img.shields.io/badge/| ADB-3DDC84?logo=android&logoColor=white"> &nbsp; <img src="https://img.shields.io/badge/| Termux-000000?logo=iterm2&logoColor=fff" > <!-- <img src="https://img.shields.io/badge/ADB-TERMUX-black?logo=android&logoColor=f5f5f5"> -->
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/S24+-Debloat-black?logo=samsung" > &nbsp; <img src="https://img.shields.io/badge/OneUI-8.5-black"> &nbsp; <img src="https://img.shields.io/badge/Exynos-Optimized-black" alt="Device">
+<img src="https://img.shields.io/badge/| S24+ Debloat-003087?logo=samsung" > &nbsp; <img src="https://img.shields.io/badge/| OneUI 8.5-FFC517?logo=samsung"> &nbsp; <img src="https://img.shields.io/badge/Exynos Optimized-764ABC?logo=samsung" alt="Device"> &nbsp; <img src="https://img.shields.io/badge/| Android Debloat-3DDC84?logo=android&logoColor=white">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/No-Root-black"> &nbsp; <img src="https://img.shields.io/badge/Thermal-Optimized-black"> &nbsp; <img src="https://img.shields.io/badge/Privacy-Focused-black">
+<img src="https://img.shields.io/badge/No Root-FE7A16"> &nbsp; <img src="https://img.shields.io/badge/Thermal Optimized-FFB3C7"> &nbsp; <img src="https://img.shields.io/badge/Privacy Focused-%23FF0000.svg">
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/License-MIT-black?logo=conventionalcommits&logoColor=f5f5f5" alt=License>
+<img src="https://img.shields.io/badge/| License MIT-black?logo=conventionalcommits&logoColor=f5f5f5" alt=License>
 </p>
 
 ---
