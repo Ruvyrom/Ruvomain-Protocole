@@ -36,15 +36,15 @@ Create a JSON file [following the protocol schema](https://github.com/Ruvyrom/Ru
 
 ---
 ### Table of Contents
+[Documentation](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#documentation)
+
 [Features](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#features)
 
 [Technical Architecture](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#-technical-architecture) 
 
-[Quick Start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)
+**[Quick Start](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-quick-start)**
 
 [Comparaison Matrix](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-comparison-matrix) 
-
-[Documentation](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#documentation)
 
 [Proof of Concept](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#-proof-of-concept)
 
