@@ -54,20 +54,6 @@ Do you have a specific configuration for your device? Place your JSON file in `/
 
 >**Follow** instructions [here](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main/Configs/Imports) for import JSON file. 
 
-<!--[For WSL2](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-windows-users-wsl2-support)-->
-
-<!--- **1.2 - Manual execution (script v2):**
-     > [Linux/Termux/macOS](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#2manual-execution-linuxtermuxmacos),
-
-- [Proof of concept](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-proof-of-concept)
-  
-- [Current Status](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-current-status)
-  
-- [Disclaimer](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#%EF%B8%8F-disclaimer)
-  
-- [Community & Credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
-  
-- [License](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/LICENSE)-->
 ---
 Got questions? Reddit is the place to discuss builds.
 >[r/Ruvomain](https://www.reddit.com/r/Ruvomain/s/9HlpNjl2M7)
