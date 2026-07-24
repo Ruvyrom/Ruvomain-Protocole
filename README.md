@@ -149,7 +149,7 @@ The core of **Ruvomain-PBD** is `json-walk`, an event-driven (SAX-style) parser 
 ## Documentation
 To gain a deeper understanding of the technical and operational aspects of the protocol, please refer to the following files located in the `/Docs` directory:
 
-- [Protocol Hierarchy (3 tiers packages list exemple for S24+)](/Docs/Protocol-Hierarchy.md) 
+- [Protocol Hierarchy](/Docs/Protocol-Hierarchy.md) (3 tiers packages list exemple for S24+)
 >An overview of the protocol's global architecture.
 
 <!--- [Using the Makefile](/Docs/Using-the-Makefile.md)
