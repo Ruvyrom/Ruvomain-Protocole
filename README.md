@@ -48,6 +48,8 @@ Create a JSON file [following the protocol schema](https://github.com/Ruvyrom/Ru
 
 [Proof of Concept](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#-proof-of-concept)
 
+[Why JSON and Pure Bash?](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Docs/Why-JSON-Parsing-Pure-Bash-guarantee-privacy.md#why-json-parsing--pure-bash-guarantee-privacy) 
+
 [Community and Credits](https://github.com/Ruvyrom/Ruvomain-Protocole/tree/main#-community--credits)
 
 [Disclaimer](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/README.md#%EF%B8%8F-disclaimer)
@@ -146,7 +148,7 @@ Enable USB Debugging on your phone:
 ---
 ## 🚀 Technical Architecture
 
-The core of **Ruvomain-PBD** is `json-walk`, an event-driven (SAX-style) parser written in pure Bash. It processesyour configurations natively, ensuring compatibility across Linux, Termux, and Android without requiring external binaries like `jq`.
+The core of **Ruvomain-PBD** is `json-walk`, an event-driven (SAX-style) parser written in pure Bash. It processes your configurations natively, ensuring compatibility across Linux, Termux, and Android without requiring external binaries like `jq`.
 
 ---
 ## Documentation
