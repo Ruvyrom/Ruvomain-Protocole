@@ -1,7 +1,7 @@
 ### Protocol Hierarchy
 (These three files are compatible with the Samsung Galaxy S24+ (you can use them on this model) and serve as an example to demonstrate how the protocol works.
 
-The protocol is modular, allowing users to choose their level of optimization. *Tierslists are provided as standardized defaults, but the architecture is designed for you to edit `tier*.json` files to fit your specific operational requirements.*
+The protocol is modular, allowing users to choose their level of optimization. *Tiers lists are provided as standardized defaults, but the architecture is designed for you to edit `tier*.json` files to fit your specific operational requirements.*
 
 You can modify these list in .json files for keep fonctionnality you want or [import](https://github.com/Ruvyrom/Ruvomain-Protocole/blob/main/Imports/README.md) your personnal `.json` files list in `/Imports`.
 
